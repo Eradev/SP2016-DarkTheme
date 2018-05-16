@@ -2228,13 +2228,16 @@ box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
 {
 /* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=rgba( 205,230,247,0.5 ),endColorstr=rgba( 205,230,247,0.5 ))";;
 }
+
 .ms-headerCellStyleHover
 {
-/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+	background-color: #2F364F;
 }
+
 .ms-core-needIEFilter .ms-headerCellStyleHover{
-/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";
+	background-color: #2F364F;
 }
+
 .ms-headerCellStylePressed
 {
 /* [ReplaceColor(themeColor:"SelectionBackground",opacity:"1")] */ background-color:#9ccef0;
@@ -2249,14 +2252,14 @@ box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
 
 .ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh2-nofilter-perm,.ms-vh a,.ms-vh2,.ms-vh2 a
 {
-	color:#788990;
+	color: #FFFFFF;
 }
 
 .ms-headerCellStyleHover a,
 .ms-headerCellStylePressed a,
 .ms-headerCellStyleMenuOpen a
 {
-/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+	color: #FFFFFF;
 }
 
 .ms-headerCellStyleIcon:hover
@@ -2355,11 +2358,11 @@ div.ms-viewselector a,div.ms-viewselectorhover a.ms-menu-a span{
 }
 
 .ms-vh table.ms-selectedtitle,.ms-vh2 table.ms-selectedtitle,.ms-vh-icon table.ms-selectedtitle{
-/* [ReplaceColor(themeColor:"HeaderBackground")] */ background-color:rgba( 255,255,255,0.85 );
+	background-color: #2F364F;
 }
 
 .ms-vh-icon .ms-selectedtitle .ms-vb,.ms-vh-icon .ms-unselectedtitle .ms-vb{
-	border-bottom:solid 3px transparent;
+	border:solid 3px transparent;
 }
 
 .ms-selectedtitle{
@@ -2378,8 +2381,8 @@ div.ms-viewselector a,div.ms-viewselectorhover a.ms-menu-a span{
 }
 
 .ms-menuimagecell{
-/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
-/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ border:solid 1px #fff;
+	background-color: #2F364F;
+	border-color: transparent;
 }
 
 .ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh-icon-empty,.ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh2-nofilter-perm,.ms-vhImage,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-vh2-nofilter-icon,.ms-ph{
@@ -2450,7 +2453,7 @@ th .ms-vb a,.ms-vh2-nofilter-icon a{
 }
 
 th .ms-selectedtitle .ms-vb,th .ms-selectedtitle .ms-vh2-nofilter-icon,th .ms-selectedtitle .ms-vb a,th .ms-selectedtitle .ms-vh2-nofilter-icon a{
-	color:#788990;
+	color:#FFFFFF;
 }
 
 table.ms-listviewtable tbody tr.ms-newsletteralt td{
@@ -2516,10 +2519,11 @@ table.ms-listviewtable > tbody > tr > td.ms-stylebox{
 background-color:transparent;
 /* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
 }
+
 .ms-itmHoverEnabled:hover > *{
-/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
-border:1px solid transparent;
+	background-color: transparent;
 }
+
 .ms-itmHoverEnabled:hover .ms-list-itemLink-td{
 /* [ReplaceColor(themeColor:"HoverBackground",opacity:"1")] */ background-color:#cde6f7;
 }
@@ -4136,7 +4140,16 @@ a.ms-missinglink
     border-radius: 5px;
 }
 
-#sideNavBox {
+#sideNavBox,
+#contentBox {
 	background-color: #1B273D;
     border-radius: 5px;
+}
+
+.ms-listviewtable tr:hover {
+    background-color: #2F364F;
+}
+
+.ms-listviewtable tr.ms-viewheadertr:hover {
+    background-color: transparent;
 }
