@@ -4,7 +4,7 @@
 	Text: 		#FFFFFF;
 	Label: 		#788990;
 	Link: 		#CEFFFF;
-	HR:			#394252;
+	HR:		#394252;
 */
 
 body,
@@ -22,18 +22,18 @@ body
 h1,
 .ms-h1
 {
-	color:#777;
+	color:#FFFFFF;
 }
 
 h2,h3,.ms-h2,.ms-h3,
 .ms-headerFont
 {
-	color:#262626;
+	color: #FFFFFF;
 }
 
 h4,.ms-h4
 {
-	color:#262626;
+	color: #FFFFFF;
 }
 
 hr
