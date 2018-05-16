@@ -1,0 +1,4142 @@
+/* Colors 
+	Background: #001122;
+	Box1:		#1B273D;
+	Text: 		#FFFFFF;
+	Label: 		#788990;
+	Link: 		#CEFFFF;
+	HR:			#394252;
+*/
+
+body,
+.ms-core-defaultFont,
+.js-callout-body
+{
+	color: #FFFFFF;
+}
+
+body
+{
+	background: #001122;
+}
+
+h1,
+.ms-h1
+{
+	color:#777;
+}
+
+h2,h3,.ms-h2,.ms-h3,
+.ms-headerFont
+{
+	color:#262626;
+}
+
+h4,.ms-h4
+{
+	color:#262626;
+}
+
+hr
+{
+	border-color: #394252;
+}
+
+
+input[type=password],
+input[type=text],
+input[type=file],
+select,
+textarea,
+.sp-peoplepicker-topLevel,
+.sp-peoplepicker-topLevelDisabled,
+.sp-peoplepicker-autoFillContainer,
+.ms-inputBox
+{
+	border:1px solid #394252;
+	background-color: #001122;
+	color:#FFFFFF;
+}
+
+input[type=button],
+input[type=reset],
+input[type=submit],
+button
+{
+	border-color: #394252;
+	background-color:#2F364F;
+	color:#FFFFFF;
+}
+input[type=password]:focus,
+input[type=text]:focus,
+select:focus,
+textarea:focus,
+.sp-peoplepicker-topLevelFocus,
+.ms-inputBoxActive,
+.ms-inputBox.ms-inputBoxActive:hover
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-color:#2a8dd4;
+}
+input[type=button]::-moz-inner-focus,
+input[type=reset]::-moz-inner-focus,
+input[type=submit]::-moz-inner-focus,
+button::-moz-inner-focus
+{
+/* [ReplaceColor(themeColor:"ButtonText")] */ border-color:#444;
+}
+input[type=password]:hover,
+input[type=text]:hover,
+input[type=file]:hover,
+textarea:hover,
+.sp-peoplepicker-topLevel:hover,
+.ms-inputBox:hover
+{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border-color:#92c0e0;
+}
+
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover,
+button:hover
+{
+	border-color: #394252;
+	background-color: #1B273D;
+}
+
+input[type=button]:active,
+input[type=reset]:active,
+input[type=submit]:active,
+button:active
+{
+/* [ReplaceColor(themeColor:"ButtonPressedBorder")] */ border-color:#2a8dd4;
+/* [ReplaceColor(themeColor:"ButtonPressedBackground",opacity:"1")] */ background-color:#92b7d1;
+/* [ReplaceColor(themeColor:"ButtonPressedBackground")] */ background-color:#92c0e0;
+}
+
+input.ms-button-emphasize,
+button.ms-button-emphasize
+{
+	border-color: yellowgreen;
+	background-color: yellowgreen;
+	color: #FFFFFF;
+}
+
+input.ms-button-emphasize:hover,
+button.ms-button-emphasize:hover
+{
+	background-color:#548c10;
+	border-color:#548c10;
+}
+
+input[type=password][disabled],
+input[type=text][disabled],
+input[type=file][disabled],
+textarea[disabled],
+select[disabled],
+.sp-peoplepicker-topLevelDisabled,
+.ms-inputBoxDisabled
+{
+	color: #636363;
+	border-color: #394252;
+	background-color: #001122;
+}
+
+input[type=button][disabled],
+input[type=reset][disabled],
+input[type=submit][disabled],
+button[disabled][disabled]
+{
+	border: 0;
+	background-color: transparent;
+/* [ReplaceColor(themeColor:"ButtonDisabledText")] */ color:#b1b1b1;
+}
+a:visited
+{
+	color: #CEFFFF;
+}
+
+a:active
+{
+	color: #CEFFFF;
+}
+
+a,.ms-link:visited
+{
+	color: #CEFFFF;
+}
+
+.ms-siteactions-normal
+{
+border-right:1px solid transparent;
+}
+
+.ms-welcome-root
+{
+	border-right:1px solid transparent;
+}
+
+.ms-core-needIEFilter .ms-welcome-root
+{
+/* [ReplaceColor(themeColor:"SuiteBarBackground",opacity:"1")] */ border-left-color:#0072c6;
+}
+
+.ms-welcome-root > a.ms-core-menu-root,
+.ms-signInLink
+{
+/* [ReplaceColor(themeColor:"TopBarText")] */ color:#666;
+}
+
+.ms-welcome-hover > a.ms-core-menu-root,
+.ms-signInLink:hover
+{
+	color: #FFFFFF;
+}
+
+.ms-welcome-root > a.ms-core-menu-root:active,
+.ms-signInLink:active
+{
+/* [ReplaceColor(themeColor:"TopBarPressedText")] */ color:#004d85;
+}
+
+.ms-welcome-hover,
+.ms-siteactions-hover
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border-right-color:#d1d1d1;
+}
+
+.ms-welcome-root > .ms-core-menu-box.ms-core-menu-box,
+.ms-siteactions-hover > .ms-core-menu-box.ms-core-menu-box
+{
+    box-shadow:3px 3px 6px -4px rgba(0,0,0,0.3),-3px 3px 6px -4px rgba(0,0,0,0.3);
+}
+
+.ms-promotedActionButton-text
+{
+	color: #FFFFFF;
+}
+
+.ms-promotedActionButton:hover .ms-promotedActionButton-text
+{
+	color: #CEFFFF;
+}
+
+.ms-promotedActionButton:active .ms-promotedActionButton-text
+{
+/* [ReplaceColor(themeColor:"TopBarPressedText")] */ color:#004d85;
+}
+
+.ms-viewselector-currentView
+{
+/* [ReplaceColor(themeColor:"Accent4")] */ color:#111;
+}
+
+.ms-viewselector-currentView:hover
+{
+/* [ReplaceColor(themeColor:"Accent1")] */ color:#b95f00;
+}
+
+.ms-core-pageTitle,
+.ms-core-pageTitle a
+{
+	color:#FFFFFF;
+}
+
+.ms-core-form-heading
+{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-core-form-title
+{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-taskdate-daysvalue
+{
+	color:#FFFFFF;
+}
+
+.ms-taskdate-daysunit
+{
+	color:#FFFFFF;
+}
+
+.ms-input-divAroundTextArea
+{
+	border-color:#394252;
+}
+
+.ms-core-header .ms-srch-sb
+{
+/* [ReplaceColor(themeColor:"HeaderBackground",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"HeaderBackground")] */ background-color:rgba( 255,255,255,0.85 );
+}
+
+.ms-srch-sb-border
+{
+	border-color: #394252;
+}
+
+.ms-srch-sb-border > input[type=text] {
+	border: 0;
+}
+
+.ms-core-header .ms-srch-sb-border
+{
+/* [ReplaceColor(themeColor:"HeaderLines")] */ border:1px solid #ababab;
+}
+.ms-srch-sb-border:hover
+{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border:1px solid #92c0e0;
+}
+.ms-core-header .ms-srch-sb-border:hover
+{
+/* [ReplaceColor(themeColor:"HeaderStrongLines")] */ border:1px solid #92c0e0;
+}
+.ms-srch-sb-borderFocused
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:1px solid #2a8dd4 !important;
+}
+.ms-core-header .ms-srch-sb-borderFocused
+{
+/* [ReplaceColor(themeColor:"HeaderAccentLines")] */ border:1px solid #2a8dd4;
+}
+.ms-srch-sb>input
+{
+	background-color:transparent;
+}
+
+.ms-core-header .ms-srch-sb>input
+{
+	color:#FFFFFF;
+}
+
+.ms-srch-sb-searchLink:hover,.ms-srch-sb-navLink:hover
+{
+/* [ReplaceColor(themeColor:"ButtonHoverBackground")] */ background-color:#e6f2fa;
+}
+.ms-srch-sb-searchLink:active,
+.ms-srch-sb-searchLink > img:active,
+.ms-srch-sb-navLink:active,
+.ms-srch-sb-navLink > img:active,
+.ms-srch-sb-navLink-menuOpen,
+.ms-srch-sb-navLink-menuOpen:hover
+{
+/* [ReplaceColor(themeColor:"ButtonPressedBackground")] */ background-color:#92c0e0;
+}
+
+.ms-core-header .ms-srch-sb-prompt.ms-srch-sb-prompt
+{
+/* [ReplaceColor(themeColor:"HeaderSubtleText")] */ color:#777;
+}
+
+.ms-qSuggest-container
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+}
+
+.ms-qSuggest-hListItem{
+/* [ReplaceColor(themeColor:"HoverBackground",opacity:"1")] */ background-color:#cde6f7;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+
+.ms-qSuggest-personalResultTitle
+{
+	color: #788990;
+}
+
+.ms-qSuggest-listSeparator
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:1px solid #c6c6c6;
+}
+
+a:active.ms-skip,
+a:focus.ms-skip,
+a:focus.ms-acc-button,
+a:active.ms-acc-button
+{
+	background-color:#fff;
+    border:1px solid #000;
+    color:#000;
+}
+
+#pageStatusBar[class],
+.ms-status-msg
+{
+	color: #FFFFFF;
+}
+
+.ms-status-blue
+{
+background-color:#f0f0f0 !important;
+border-color:#c6c6c6 !important;
+}
+.ms-status-blue a:link,
+.ms-status-blue a:visited
+{
+color:#125ab2 !important;
+}
+.ms-status-green
+{
+background-color:#c7f299 !important;
+border-color:#99cc62 !important;
+}
+.ms-status-green a:link,
+.ms-status-green a:visited
+{
+color:#125ab2 !important;
+}
+.ms-status-yellow
+{
+background-color:#fff19d !important;
+border-color:#d7d889 !important;
+}
+.ms-status-yellow a:link,
+.ms-status-yellow a:visited
+{
+color:#125ab2 !important;
+}
+.ms-status-red
+{
+background-color:#f8d4d4 !important;
+border-color:#f5a6a7 !important;
+}
+.ms-status-red a:link,
+.ms-status-red a:visited
+{
+color:#125ab2 !important;
+}
+
+.ms-diffinsert,
+.ms-diffinsert.ms-descriptiontext
+{
+/* [ReplaceColor(themeColor:"SearchURL")] */ color:#338200;
+}
+
+.ms-storefront-appiconspan
+{
+	background-color: transparent;
+}
+
+.ms-core-needIEFilter .ms-storefront-appiconspan
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff0072c6,endColorstr=#ff0072c6)";
+}
+
+#ms-hcTest
+{
+	border-color:#f00 !important;
+}
+
+.ms-lightbox
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:#fff;
+}
+
+.ms-accentText,.ms-accentText:visited
+{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-metadata,
+.ms-descriptiontext
+{
+	color:#788990;
+}
+
+.ms-helperText,
+input.ms-helperText
+{
+	color:#788990;
+}
+
+.ms-subtleLink:link,
+.ms-subtleLink:visited,
+.ms-atMention:link,
+.ms-atMention:visited,
+.ms-hashTag:link,
+.ms-hashTag:visited
+{
+	color: #FFFFFF;
+}
+
+.ms-subtleLink:hover,
+.ms-atMention:hover,
+.ms-hashTag:hover
+{
+	color:#CEFFFF;
+}
+
+.ms-subtleLink:active,
+.ms-atMention:active,
+.ms-hashTag:active
+{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+
+.ms-calloutLink:link,
+a.ms-calloutLink:visited,
+.ms-calloutLinkDisabled,
+.ms-commandLink,
+.ms-commandLink:visited,
+.ms-secondaryCommandLink,
+.ms-secondaryCommandLink:visited
+{
+	color:#FFFFFF;
+}
+
+.ms-soften,
+.ms-soften:link,
+a.ms-soften:visited,
+.ms-soften:hover,
+.ms-soften:active
+{
+	color:#788990;
+}
+.ms-commandLink,
+.ms-commandLink:visited,
+.ms-commandGlyph,
+.ms-commandGlyph:visited
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+
+.ms-secondaryCommandLink,
+.ms-secondaryCommandLink:visited,
+.ms-commandGlyph:hover
+{
+	color:#CEFFFF;
+}
+
+.ms-calloutLink:hover,
+.ms-commandLink:hover,
+.ms-secondaryCommandLink:hover
+{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+
+.ms-calloutLink:active,
+.ms-commandLink:active,
+.ms-secondaryCommandLink:active,
+.ms-commandGlyph:active
+{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+
+.ms-heroCommandLink,
+.ms-heroCommandLink:visited
+{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+
+.ms-heroCommandLink:hover,
+.ms-heroCommandLink:active
+{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+
+.ms-calloutLinkDisabled:link,
+.ms-calloutLinkDisabled:visited,
+a.ms-calloutLinkDisabled:hover,
+.ms-calloutLinkDisabled:active,
+.ms-commandLinkDisabled:link,
+.ms-commandLinkDisabled:visited,
+.ms-commandLinkDisabled:hover,
+.ms-commandLinkDisabled:active
+{
+/* [ReplaceColor(themeColor:"CommandLinksDisabled")] */ color:#b1b1b1;
+}
+
+.ms-core-form-error,
+.ms-error,
+.ms-formvalidation,
+.ms-diffdeletenostrike,
+.ms-diffdelete
+{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+
+.ms-emptyMode,
+.ms-attractMode{
+	color:#788990;
+}
+
+.ms-attractMode
+{
+	color:#788990;
+}
+
+a.ms-listlink,
+a.ms-listlink:hover,
+a.ms-listlink:active
+{
+	color:#FFFFFF;
+}
+
+.ms-webpart-titleText.ms-webpart-titleText,
+.ms-webpart-titleText > a
+{
+	color:#FFFFFF;
+}
+
+.ms-webpart-titleText > a:hover
+{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+.ms-webpart-titleText > a:active
+{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+
+.ms-disabled
+{
+/* [ReplaceColor(themeColor:"DisabledText")] */ color:#b1b1b1;
+}
+
+.ms-largeNumber
+{
+/* [ReplaceColor(themeColor:"CommandLinksSecondary")] */ color:#262626;
+}
+
+.ms-emphasis{
+/* [ReplaceColor(themeColor:"EmphasisText")] */ color:#fff;
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ background-color:#0072c6;
+}
+.ms-core-needIEFilter .ms-emphasis{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff0072c6,endColorstr=#ff0072c6)";
+}
+.ms-emphasis:hover{
+/* [ReplaceColor(themeColor:"EmphasisHoverBackground")] */ background-color:#0067b0;
+}
+.ms-core-needIEFilter .ms-emphasis:hover{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"EmphasisHoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff0067b0,endColorstr=#ff0067b0)";
+}
+.ms-emphasisBorder{
+/* [ReplaceColor(themeColor:"EmphasisBorder")] */ border:1px solid #0067b0;
+}
+.ms-emphasisBorder:hover{
+/* [ReplaceColor(themeColor:"EmphasisHoverBorder")] */ border-color:#004d85;
+}
+
+.ms-subtleEmphasis{
+	color:#788990;
+	background-color:#2F364F;
+}
+
+.ms-subtleEmphasisCommand{
+	color:#FFFFFF;
+	background-color:#2F364F;
+}
+
+.ms-core-needIEFilter .ms-subtleEmphasisCommand{
+	background-color:#2F364F;
+}
+
+.ms-subtleEmphasisCommand:hover{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+.ms-subtleEmphasisCommand:active{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+.ms-subtleEmphasisCommand-disabled{
+/* [ReplaceColor(themeColor:"CommandLinksDisabled")] */ color:#b1b1b1;
+}
+.ms-sideNav{
+/* [ReplaceColor(themeColor:"Navigation")] */ color:#666666;
+}
+.ms-sideNav:hover{
+/* [ReplaceColor(themeColor:"NavigationHover")] */ color:#0072c6;
+}
+.ms-sideNav:active{
+/* [ReplaceColor(themeColor:"NavigationPressed")] */ color:#004d85;
+}
+.ms-sideNav:hover,
+.ms-sideNav:active{
+/* [ReplaceColor(themeColor:"NavigationHoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-needIEFilter .ms-sideNav:hover,
+.ms-core-needIEFilter .ms-sideNav:active{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"NavigationHoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";
+}
+.ms-sideNav-selected{
+/* [ReplaceColor(themeColor:"NavigationSelectedBackground")] */ background-color:rgba( 239,239,239,0.78 );
+}
+.ms-core-needIEFilter .ms-sideNav-selected{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"NavigationSelectedBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+.ms-topBar{
+	color:#FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.ms-core-needIEFilter .ms-topBar{
+	background-color: #FFFFFF;
+}
+
+.ms-topBar:hover{
+/* [ReplaceColor(themeColor:"TopBarHoverText")] */ color:#333;
+}
+.ms-topBar:active{
+/* [ReplaceColor(themeColor:"TopBarPressedText")] */ color:#004d85;
+}
+
+
+.ms-highContrastBorder
+{
+	border:1px solid transparent;
+}
+
+.ms-shadow
+{
+	box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+}
+
+.ms-lines{
+	border-color: #394252;
+}
+.ms-subtleLines{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+.ms-strongLines{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border:1px solid #92c0e0;
+}
+.ms-disabledLines{
+/* [ReplaceColor(themeColor:"DisabledLines")] */ border:1px solid #e1e1e1;
+}
+.ms-accentLines{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:1px solid #2a8dd4;
+}
+.ms-popupBorder{
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border:1px solid #d1d1d1;
+}
+.ms-bgOverlay{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-bgOverlay{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+.ms-bgDisabled{
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ background-color:#fdfdfd;
+}
+.ms-core-needIEFilter .ms-bgDisabled{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fffdfdfd,endColorstr=#fffdfdfd)";
+}
+.ms-bgHeader{
+/* [ReplaceColor(themeColor:"HeaderBackground")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-bgHeader{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"HeaderBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+.ms-bgFooter{
+/* [ReplaceColor(themeColor:"FooterBackground")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-bgFooter{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"FooterBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+.ms-bgHoverable:hover{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-needIEFilter .ms-bgHoverable:hover{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";
+}
+.ms-bgSelected{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+}
+.ms-core-needIEFilter .ms-bgSelected{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
+}
+.ms-ContentAccent1-fontColor{/* [ReplaceColor(themeColor:"ContentAccent1",opacity:"1")] */ color:#0072C6;}
+.ms-ContentAccent2-fontColor{/* [ReplaceColor(themeColor:"ContentAccent2",opacity:"1")] */ color:#00485B;}
+.ms-ContentAccent3-fontColor{/* [ReplaceColor(themeColor:"ContentAccent3",opacity:"1")] */ color:#288054;}
+.ms-ContentAccent4-fontColor{/* [ReplaceColor(themeColor:"ContentAccent4",opacity:"1")] */ color:#767956;}
+.ms-ContentAccent5-fontColor{/* [ReplaceColor(themeColor:"ContentAccent5",opacity:"1")] */ color:#ED0033;}
+.ms-ContentAccent6-fontColor{/* [ReplaceColor(themeColor:"ContentAccent6",opacity:"1")] */ color:#682A7A;}
+.ms-TileText-fontColor{/* [ReplaceColor(themeColor:"TileText",opacity:"1")] */ color:#fff;}
+
+.ms-TopBarText-fontColor { 
+    color: #FFFFFF;
+}
+
+.ms-ContentAccent1-bgColor{/* [ReplaceColor(themeColor:"ContentAccent1")] */ background-color:#0072C6;}
+.ms-ContentAccent2-bgColor{/* [ReplaceColor(themeColor:"ContentAccent2")] */ background-color:#00485B;}
+.ms-ContentAccent3-bgColor{/* [ReplaceColor(themeColor:"ContentAccent3")] */ background-color:#288054;}
+.ms-ContentAccent4-bgColor{/* [ReplaceColor(themeColor:"ContentAccent4")] */ background-color:#767956;}
+.ms-ContentAccent5-bgColor{/* [ReplaceColor(themeColor:"ContentAccent5")] */ background-color:#ED0033;}
+.ms-ContentAccent6-bgColor{/* [ReplaceColor(themeColor:"ContentAccent6")] */ background-color:#682A7A;}
+.ms-SelectionBackground-bgColor{/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );}
+.ms-HoverBackground-bgColor{/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );}
+.ms-TileBackgroundOverlay-bgColor{/* [ReplaceColor(themeColor:"TileBackgroundOverlay")] */ background-color:rgba( 0,0,0,0.6 );}
+.ms-EmphasisBackground-bgColor{/* [ReplaceColor(themeColor:"EmphasisBackground")] */ background-color:#0072c6;}
+.ms-TopBarBackground-bgColor{/* [ReplaceColor(themeColor:"TopBarBackground")] */ background-color:rgba( 239,239,239,0.78 );}
+.ms-EmphasisHoverBackground-bgColor{/* [ReplaceColor(themeColor:"EmphasisHoverBackground")] */ background-color:#0067b0;}
+.ms-core-needIEFilter .ms-ContentAccent1-bgColor{/* [ReplaceColor(themeColor:"ContentAccent1")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FF0072C6,endColorstr=#FF0072C6)";}
+.ms-core-needIEFilter .ms-ContentAccent2-bgColor{/* [ReplaceColor(themeColor:"ContentAccent2")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FF00485B,endColorstr=#FF00485B)";}
+.ms-core-needIEFilter .ms-ContentAccent3-bgColor{/* [ReplaceColor(themeColor:"ContentAccent3")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FF288054,endColorstr=#FF288054)";}
+.ms-core-needIEFilter .ms-ContentAccent4-bgColor{/* [ReplaceColor(themeColor:"ContentAccent4")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FF767956,endColorstr=#FF767956)";}
+.ms-core-needIEFilter .ms-ContentAccent5-bgColor{/* [ReplaceColor(themeColor:"ContentAccent5")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFED0033,endColorstr=#FFED0033)";}
+.ms-core-needIEFilter .ms-ContentAccent6-bgColor{/* [ReplaceColor(themeColor:"ContentAccent6")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FF682A7A,endColorstr=#FF682A7A)";}
+.ms-core-needIEFilter .ms-SelectionBackground-bgColor{/* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";}
+.ms-core-needIEFilter .ms-HoverBackground-bgColor{/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";}
+.ms-core-needIEFilter .ms-TileBackgroundOverlay-bgColor{/* [ReplaceColor(themeColor:"TileBackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#99000000,endColorstr=#99000000)";}
+.ms-core-needIEFilter .ms-EmphasisBackground-bgColor{/* [ReplaceColor(themeColor:"EmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff0072c6,endColorstr=#ff0072c6)";}
+.ms-core-needIEFilter .ms-TopBarBackground-bgColor{/* [ReplaceColor(themeColor:"TopBarBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";}
+.ms-core-needIEFilter .ms-EmphasisHoverBackground-bgColor{/* [ReplaceColor(themeColor:"EmphasisHoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff0067b0,endColorstr=#ff0067b0)";}
+.ms-ContentAccent1-borderColor{/* [ReplaceColor(themeColor:"ContentAccent1",opacity:"1")] */ border-color:#0072C6;}
+.ms-ContentAccent2-borderColor{/* [ReplaceColor(themeColor:"ContentAccent2",opacity:"1")] */ border-color:#00485B;}
+.ms-ContentAccent3-borderColor{/* [ReplaceColor(themeColor:"ContentAccent3",opacity:"1")] */ border-color:#288054;}
+.ms-ContentAccent4-borderColor{/* [ReplaceColor(themeColor:"ContentAccent4",opacity:"1")] */ border-color:#767956;}
+.ms-ContentAccent5-borderColor{/* [ReplaceColor(themeColor:"ContentAccent5",opacity:"1")] */ border-color:#ED0033;}
+.ms-ContentAccent6-borderColor{/* [ReplaceColor(themeColor:"ContentAccent6",opacity:"1")] */ border-color:#682A7A;}
+.ms-StrongLines-borderColor{/* [ReplaceColor(themeColor:"StrongLines",opacity:"1")] */ border-color:#92b7d1;}
+
+.ms-Lines-borderColor
+{
+    border-color: #394252;
+}
+
+.ms-SubtleLines-borderColor{/* [ReplaceColor(themeColor:"SubtleLines",opacity:"1")] */ border-color:#c6c6c6;}
+.ms-DisabledLines-borderColor{/* [ReplaceColor(themeColor:"DisabledLines",opacity:"1")] */ border-color:#e1e1e1;}
+.ms-AccentLines-borderColor{/* [ReplaceColor(themeColor:"AccentLines",opacity:"1")] */ border-color:#2a8dd4;}
+.ms-FocusedAccentLine-borderColor{/* [ReplaceColor(themeColor:"FocusedAccentLine",opacity:"1")] */ border-color:#2a8dd4;}
+.ms-RowAccent-borderColor{/* [ReplaceColor(themeColor:"RowAccent",opacity:"1")] */ border-color:#0072c6;}
+.ms-EmphasisBorder-borderColor{/* [ReplaceColor(themeColor:"EmphasisBorder",opacity:"1")] */ border-color:#0067b0;}
+.ms-TopBarBorder-borderColor{/* [ReplaceColor(themeColor:"TopBarBorder",opacity:"1")] */ border-color:#f0f0f0;}
+
+#rtePasteFlyoutLink
+{
+	border:1px solid #bec1c4;
+}
+#rtePasteFlyoutLink:hover
+{
+	border-color:#92b7d1;
+}
+
+#rtePasteFlyoutText
+{
+	color:#23272c;
+}
+
+.ms-imagecrop-background
+{
+	background-color:black;
+}
+
+.ms-imagecrop-handle
+{
+    border-color:#cf8000;
+    background-color:white;
+}
+
+.ms-imagecrop-edge
+{
+	border-color:white;
+}
+
+#ms-rte-styleGalleryMenu .ms-cui-gallerybutton-a
+{
+	border:1px solid #afb4ba;
+}
+
+.ms-wpadder
+{
+    color:#65686b;
+    background-color:#fff;
+}
+
+.ms-wpadder-categoryColumn,.ms-wpadder-itemColumn,.ms-wpadder-descriptionColumn
+{
+	border:1px solid #d9d9d9;
+}
+.ms-wpadder-categories,.ms-wpadder-descriptionArea
+{
+    -ms-scrollbar-3dlight-color:#f7f7f7;
+    -ms-scrollbar-darkshadow-color:#fafafa;
+    -ms-scrollbar-face-color:#f7f7f7;
+    -ms-scrollbar-highlight-color:#cecfce;
+    -ms-scrollbar-shadow-color:#949494;
+    -ms-scrollbar-track-color:#fffbff;
+}
+
+.ms-wpadder-categoryColumn A,.ms-wpadder-categoryColumn IMG,.ms-wpadder-itemColumn IMG,
+.ms-wpadder-closeColumn A,.ms-wpadder-closeColumn IMG
+{
+    border:0px;
+    background-color:transparent;
+}
+
+.ms-wpadder-categories DIV.ms-wpadder-hover,.ms-wpadder-items DIV.ms-wpadder-hover
+{
+	border:1px dashed #aad9fa;
+}
+
+.ms-wpadder-categories DIV.ms-wpadder-selected,.ms-wpadder-items DIV.ms-wpadder-selected
+{
+    border:1px solid #aad9fa;
+    background-color:#c5e8ff;
+    color:#000;
+}
+
+.ms-wpadder-categories{
+	border-bottom:1px solid #fd9f08;
+}
+
+.ms-wpadder-itemCell2
+{
+	border-left:2px dashed #e8e8ff;
+}
+
+.ms-wpadder-tabTable TH
+{
+    border-top:1px solid #999999;
+    border-bottom:1px solid #999999;
+    border-left:1px solid #999999;
+    background-color:#f0f0f0;
+    color:#000;
+}
+
+.ms-wpadder-tabTable TH.ms-wpadder-dummyTab
+{
+	background-color:#fff;
+}
+
+.ms-wpadder-tabTable TH.ms-wpadder-selected
+{
+	background-color:#fff;
+}
+
+.ms-wpadder-descriptionCell
+{
+    border-color:#999999;
+}
+
+.ms-wpadder-closeColumn DIV
+{
+    border-bottom-color:#fff;
+}
+
+.ms-wpadder-closeColumn DIV.ms-wpadder-hover
+{
+    border-bottom-color:#cccccc;
+}
+
+.ms-wpadder-buttonArea
+{
+	border-bottom:1px solid #d9d9d9;
+}
+
+.ms-wpadder-sectionhead
+{
+	color:#003759;
+}
+
+.ms-wpadder-wpname
+{
+	color:#7f7f7f;
+}
+
+.ms-wpadder option,.ms-wpadder select,.ms-wpadder button
+{
+    border-color:#d9d9d9;
+    background-color:#fff;
+    color:#65686b;
+}
+
+.ms-acal-rootdiv a:visited{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072c6;
+}
+
+.ms-acal-detail,
+.ms-acal-daygroup,
+.ms-acal-weekgroup{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:solid 1px #c6c6c6;
+}
+.ms-acal-daygroup{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-right:solid 1px #c6c6c6;
+}
+.ms-acal-day-top{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+	color:#FFFFFF;
+}
+.ms-acal-week-top td{
+	color:#FFFFFF;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+.ms-acal-day-top div{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+.ms-acal-week-top td div{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+.ms-acal-month-top
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:solid 1px #c6c6c6;
+	color: #FFFFFF;
+}
+
+table.ms-acal-month{
+	border:1px solid transparent;
+}
+
+.ms-acal-summary-dayrow > th{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:solid 1px #c6c6c6;
+}
+tr td div.ms-acal-today{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-top:solid 1px #2a8dd4;
+}
+
+.ms-acal-week-top td.ms-acal-hover div,
+.ms-acal-summary-dayrow td.ms-acal-hover div,
+.ms-acal-summary-dayrow th.ms-acal-hover{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-color:#2a8dd4 !important;
+}
+
+.ms-acal-weekgroup-top td.ms-acal-hover div{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-color:#2a8dd4 !important;
+}
+
+.ms-core-needIEFilter .ms-acal-weekgroup-top td.ms-acal-hover div{
+	background-color:transparent;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";
+}
+.ms-acal-summary-dayrow td div{
+	color:#FFFFFF;
+}
+tr.ms-acal-summary-dayrow > td{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+tr.ms-acal-summary-itemrow > td{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+.ms-acal-summary-itemrow td,.ms-acal-summary-itemrow th{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:solid 1px #c6c6c6;
+}
+
+.ms-acal-entity{
+	color:#FFFFFF;
+}
+
+.ms-acal-entitybuttons + .ms-acal-entity-res{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border-top:1px dotted #92c0e0;
+}
+
+.ms-acal-weekgroup-top td div{
+	color:#FFFFFF;
+	border:1px solid transparent;
+}
+
+.ms-acal-weekgroup-top td,.ms-acal-weekgroup-top th{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:1px solid #c6c6c6;
+}
+.ms-acal-weekgroup-row td,.ms-acal-weekgroup-row th{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:1px solid #c6c6c6;
+}
+.ms-acal-weekgroup-top td{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-left:1px solid #c6c6c6;
+}
+.ms-acal-weekgroup-row th{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-right:1px solid #c6c6c6;
+}
+
+.ms-acal-hour30 .ms-acal-detailtime,
+.ms-acal-allday .ms-acal-detailtime,
+.ms-acal-hour30 td,
+.ms-acal-allday td{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:solid 1px #c6c6c6;
+}
+.ms-acal-hour00 .ms-acal-detailtime,
+.ms-acal-hour00 td{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:dashed 1px #c6c6c6;}
+.ms-acal-hour30 td,
+.ms-acal-hour00 td,
+.ms-acal-allday td{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-right:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-left:solid 1px #c6c6c6;
+}
+
+.ms-acal-daygroup-row td.ms-acal-hour30{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-left:solid 1px #c6c6c6;
+}
+.ms-acal-daygroup-row td.ms-acal-hour00{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-left:solid 1px #c6c6c6;
+}
+.ms-acal-daygroup-row td,
+.ms-acal-daygroup-row th{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:solid 1px #c6c6c6;
+}
+
+.ms-acal-daygroup-head td,
+.ms-acal-daygroup-head2 td{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-right:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-left:solid 1px #c6c6c6;
+}
+
+.ms-acal-detailtime A:link,
+.ms-acal-daygroup-time A:link,
+.ms-acal-detailtime A:visited,
+.ms-acal-daygroup-time A:visited{
+	color:#FFFFFF;
+}
+
+td.ms-acal-outday{
+	background-color:#2F364F;
+}
+.ms-core-needIEFilter .ms-acal-outday{
+	background-color:#2F364F;
+}
+
+.ms-acal-sdiv a,
+.ms-acal-mdiv a,
+.ms-acal-ddiv a{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ color:#fff !important;
+}
+.ms-acal-sdiv a:hover,
+.ms-acal-mdiv a:hover,
+.ms-acal-ddiv a:hover{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ color:#fff !important;
+}
+.ms-acal-sdiv,
+.ms-acal-mdiv,
+.ms-acal-ddiv{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ color:#fff;
+}
+
+.ms-acal-vitem,td.ms-acal-vitem{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+}
+.ms-core-needIEFilter .ms-acal-vitem,.ms-core-needIEFilter td.ms-acal-vitem{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
+}
+
+.ms-acal-location{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ color:#fff;
+}
+.ms-acal-item{
+/* [ReplaceColor(themeColor:"ContentAccent1",opacity:"1")] */ background-color:#0072C6;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+.ms-acal-color1{
+/* [ReplaceColor(themeColor:"ContentAccent2",opacity:"1")] */ background-color:#00485B;
+}
+.ms-acal-color2{
+/* [ReplaceColor(themeColor:"ContentAccent1",opacity:"1")] */ background-color:#0072C6;
+}
+.ms-acal-color3{
+/* [ReplaceColor(themeColor:"ContentAccent3",opacity:"1")] */ background-color:#288054;
+}
+.ms-acal-color4{
+/* [ReplaceColor(themeColor:"ContentAccent4",opacity:"1")] */ background-color:#767956;
+}
+.ms-acal-color5{
+/* [ReplaceColor(themeColor:"ContentAccent5",opacity:"1")] */ background-color:#ED0033;
+}
+.ms-acal-color6{
+/* [ReplaceColor(themeColor:"ContentAccent6",opacity:"1")] */ background-color:#682A7A;
+}
+.ms-acal-color7{
+/* [ReplaceColor(themeColor:"ContentAccent2-Darkest",opacity:"1")] */ background-color:#006984;
+}
+.ms-acal-color8{
+/* [ReplaceColor(themeColor:"ContentAccent3-Darkest",opacity:"1")] */ background-color:#13402A;
+}
+.ms-acal-color9{
+/* [ReplaceColor(themeColor:"ContentAccent4-Darkest",opacity:"1")] */ background-color:#3B3C2B;
+}
+.ms-acal-default-hover{
+	border-color: #394252;
+}
+.ms-acal-item-hover{
+	border-color: #394252;
+}
+.ms-acal-selected{
+/* [ReplaceColor(themeColor:"ContentAccent1-Darker",opacity:"1")] */ background-color:#005594;
+/* [ReplaceColor(themeColor:"StrongLines")] */ border:solid 1px #92c0e0;
+}
+.ms-acal-selcolor1{
+/* [ReplaceColor(themeColor:"ContentAccent2-Darker",opacity:"1")] */ background-color:#009AC3;
+}
+.ms-acal-selcolor2{
+/* [ReplaceColor(themeColor:"ContentAccent1-Darker",opacity:"1")] */ background-color:#005594;
+}
+.ms-acal-selcolor3{
+/* [ReplaceColor(themeColor:"ContentAccent3-Darker",opacity:"1")] */ background-color:#1D603F;
+}
+.ms-acal-selcolor4{
+/* [ReplaceColor(themeColor:"ContentAccent4-Darker",opacity:"1")] */ background-color:#585A40;
+}
+.ms-acal-selcolor5{
+/* [ReplaceColor(themeColor:"ContentAccent5-Darker",opacity:"1")] */ background-color:#B10026;
+}
+.ms-acal-selcolor6{
+/* [ReplaceColor(themeColor:"ContentAccent6-Darker",opacity:"1")] */ background-color:#4E1F5B;
+}
+.ms-acal-selcolor7{
+/* [ReplaceColor(themeColor:"ContentAccent2-Darker",opacity:"1")] */ background-color:#009AC3;
+}
+.ms-acal-selcolor8{
+/* [ReplaceColor(themeColor:"ContentAccent3-Darker",opacity:"1")] */ background-color:#1D603F;
+}
+.ms-acal-selcolor9{
+/* [ReplaceColor(themeColor:"ContentAccent4-Darker",opacity:"1")] */ background-color:#585A40;
+}
+.ms-acal-selected div{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ color:#fff !important;
+}
+
+.ms-acal-display{
+	color:#FFFFFF;
+}
+
+.ms-acal-apanel{
+	color:#FFFFFF;
+}
+
+.ms-acal-apanel-title span{
+	color:#FFFFFF;
+}
+
+a.ms-acal-apanel-title:hover span{
+	color:#FFFFFF;
+}
+
+.ms-acal-apanel-item{
+/* [ReplaceColor(themeColor:"ContentAccent1",opacity:"1")] */ background-color:#0072C6;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+.ms-acal-apanel-item span{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ color:#fff;
+}
+
+.ms-acal-apanel-color1{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent2",opacity:"1")] */ background-color:#00485B;
+}
+.ms-acal-apanel-color2{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent1",opacity:"1")] */ background-color:#0072C6;
+}
+.ms-acal-apanel-color3{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent3",opacity:"1")] */ background-color:#288054;
+}
+.ms-acal-apanel-color4{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent4",opacity:"1")] */ background-color:#767956;
+}
+.ms-acal-apanel-color5{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent5",opacity:"1")] */ background-color:#ED0033;
+}
+.ms-acal-apanel-color6{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent6",opacity:"1")] */ background-color:#682A7A;
+}
+.ms-acal-apanel-color7{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent2-Darkest",opacity:"1")] */ background-color:#006984;
+}
+.ms-acal-apanel-color8{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent3-Darkest",opacity:"1")] */ background-color:#13402A;
+}
+.ms-acal-apanel-color9{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+/* [ReplaceColor(themeColor:"ContentAccent4-Darkest",opacity:"1")] */ background-color:#3B3C2B;
+}
+
+.ms-fb-head table{
+	border-color: #394252;
+}
+
+.ms-fb-body table{
+	border-color: #394252;
+}
+
+.ms-fb-select td{
+	border-color: #394252;
+}
+
+.ms-fb-body .ms-fb-select td,
+.ms-fb-body .ms-fb-time th{
+	border-color: #394252;
+}
+
+.ms-fb-select td,
+.ms-fb-time th{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+	color:#FFFFFF;
+}
+.ms-core-needIEFilter .ms-fb-select td,.ms-core-needIEFilter .ms-fb-time th
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
+}
+
+.ms-fb-selected{
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ background-color:#0072c6;
+}
+
+.ms-core-needIEFilter .ms-fb-selected{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff0072c6,endColorstr=#ff0072c6)";
+}
+
+.ms-fb-sumitem,
+.ms-fb-border,
+.ms-fb-summary,
+.ms-fb-entity {
+	border-color: #394252;
+}
+
+.ms-fb-entity td{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:1px solid #c6c6c6;
+}
+.ms-core-needIEFilter .ms-fb-entity td{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+
+.ms-picker-header{
+	background-color:#2F364F;
+}
+
+.ms-core-needIEFilter .ms-picker-header
+{
+	background-color: #2F364F;
+}
+.ms-picker-header table.ms-picker-table{
+	border-color: #394252;
+}
+
+.ms-picker-table .ms-picker-dayheader{
+	color:#788990;
+}
+
+.ms-picker-week{
+	background-color:#2F364F;
+	color:#788990;
+}
+
+.ms-picker-week a{
+	color: #FFFFFF;
+}
+
+.ms-picker-weekselected{
+	background-color:#2F364F;
+}
+
+.ms-core-needIEFilter .ms-picker-weekselected
+{
+	background-color: #2F364F;
+}
+
+.ms-picker-weekselected a,.ms-picker-weekselected a:hover{
+	color:#FFFFFF;
+}
+
+.ms-picker-weekbox{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+
+table.ms-picker-table td.ms-picker-today{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:solid 1px #2a8dd4;
+}
+table.ms-picker-table td.ms-picker-dayother,table.ms-picker-table td.ms-picker-daycenterOn,table.ms-picker-table td.ms-picker-daycenter{
+border:solid 1px transparent;
+}
+
+.ms-picker-dayselected a:link,.ms-picker-daycenter a,.ms-picker-today a{
+	color:#FFFFFF;
+}
+
+.ms-picker-dayother a:link{
+	color:#788990;
+}
+
+.ms-picker-dayother a:hover,.ms-picker-daycenterOn a,.mspicker-daycenterOn a:hover{
+	color:#FFFFFF;
+}
+.ms-picker-table .ms-picker-daycenterOn{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-picker-table .ms-picker-daycenterOn
+{
+	background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";;
+}
+table.ms-picker-table td.ms-picker-dayselected{
+	/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+}
+.ms-core-needIEFilter table.ms-picker-table td.ms-picker-dayselected
+{
+/* [ReplaceColor(themeColor:"SelectionBackground",opacity:"1")] */ background-color:#9ccef0;
+}
+
+.ms-quickLaunch table.ms-picker-table td.ms-picker-monthcenter{
+	border:1px solid transparent;
+}
+
+.ms-picker-monthcenter a,.ms-picker-monthcenter a:active,.ms-picker-monthcenter a:link,.ms-picker-monthcenter a:visited{
+	color:#788990;
+}
+
+.ms-quickLaunch table.ms-picker-table td.ms-picker-monthcenterOn{
+	color:#FFFFFF;
+	border:1px solid transparent;
+}
+
+.ms-picker-monthcenterOn a,.ms-picker-monthcenterOn a:active,.ms-picker-monthcenterOn a:link,.ms-picker-monthcenterOn a:visited{
+	color:#FFFFFF; 
+}
+
+.ms-quickLaunch table.ms-picker-table td.ms-picker-monthselected{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+/* [ReplaceColor(themeColor:"FocusedAccentLine")] */ border:solid 1px #2a8dd4;
+	color:#FFFFFF;
+}
+.ms-core-needIEFilter .ms-quickLaunch table.ms-picker-table td.ms-picker-monthselected
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";;
+}
+
+.ms-picker-monthselected a,.ms-picker-monthselected a:active,.ms-picker-monthselected a:link,.ms-picker-monthselected a:hover,.ms-picker-monthselected a:visited{
+	color:#FFFFFF;
+}
+
+.ms-picker-footer a{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072c6;
+}
+.ms-picker-header a{
+	color:#788990;
+}
+
+.ms-picker-month{
+	color:#788990;
+}
+
+.ms-picker-line{
+	border-color: #394252;
+}
+
+.ms-navframe .ms-datepickerouter{
+	border-color: #394252;
+}
+
+.ms-datepickerouter .ms-quickLaunch{
+	border-color: #394252;
+}
+
+.ms-create-h2,.ms-create-h2b,.ms-create-h2d{
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#3b4f65;
+}
+
+.ms-create-h2b{
+/* [ReplaceColor(themeColor:"Accent1")] */ color:#0072bc;
+}
+
+.ms-create-h2d{
+/* [ReplaceColor(themeColor:"Dark1")] */ color:#000;
+}
+
+.ms-create-h3{
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#3b4f65;
+}
+
+.ms-create-sectionheader{
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#3b4f65;
+/* [ReplaceColor(themeColor:"Accent1-Lightest")] */ border-color:#d8f1ff;
+}
+
+.ms-create-listitem-a{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072bc;
+border:1px solid transparent;
+}
+.ms-create-listitem-a:hover{
+/* [ReplaceColor(themeColor:"Accent1",themeTint:"0.05")] */ background-color:#f2faff;
+/* [ReplaceColor(themeColor:"Accent1-Lightest")] */ border-color:#c6e5f8;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#003759 !important;
+}
+
+.UserShadedRegion{
+	background-color: #2F364F;
+}
+
+.ms-core-needIEFilter .UserShadedRegion{
+	background-color: #2F364F;
+}
+.UserCaption{
+	background-color: #2F364F;
+}
+.ms-core-needIEFilter .UserCaption{
+	background-color: #2F364F;
+}
+
+.UserDottedLine{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */ background-color:#3966bf;
+}
+
+.RemoveConnectionLink{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #0072c6;
+}
+
+.ConnectionTabLink{
+	color: #FFFFFF;
+}
+
+.ConnectionChooseActiveTab{
+	border-color: #394252;
+	background-color: #2F364F;
+}
+
+.ms-core-needIEFilter .ConnectionChooseActiveTab{
+	background-color: #2F364F;
+}
+
+.ConnectionChooseInactiveTab{
+	border-color: #394252;
+	color: #FFFFFF;
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ background-color:#fdfdfd;
+}
+
+.ms-core-needIEFilter .ConnectionChooseInactiveTab{
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fffdfdfd,endColorstr=#fffdfdfd)";
+}
+
+.ConnectionConfigureInactiveTab{
+	border-color: #394252;
+	color: #FFFFFF;
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ background-color:#fdfdfd;
+}
+
+.ms-core-needIEFilter .ConnectionConfigureInactiveTab{
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fffdfdfd,endColorstr=#fffdfdfd)";
+}
+
+.ConnectionConfigureActiveTab{
+	border-color: #394252;
+	background-color: #2F364F;
+}
+
+.ms-core-needIEFilter .ConnectionConfigureActiveTab{
+	background-color: #2F364F;
+}
+
+.UserConnectionTop{
+	border-color: #394252;
+}
+
+.UserGenericText{
+	color:#FFFFFF;
+}
+
+.UserSectionTitle{
+	border-color: #394252;
+	color:#FFFFFF;
+	background-color:#2F364F;
+}
+
+.ms-core-needIEFilter .UserSectionTitle{
+	background-color: #2F364F;
+}
+
+.UserSectionHead{
+	color:#788990;
+}
+
+.UserSectionFooter{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:solid 1px #c6c6c6;
+	color:#FFFFFF;
+}
+
+.UserToolbar{
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ border-bottom:1px solid #6f9dd9;
+}
+
+.UserCellHover{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border:solid 1px #92c0e0;
+	color:#FFFFFF;
+}
+.UserCellSelected{
+/* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
+/* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border:solid 1px #91cdf2;
+/* [ReplaceColor(themeColor:"Accent1",themeShade:"0.20")] */ color:#003759;
+}
+
+.UserCell{
+	color:#FFFFFF;
+}
+
+.ms-ToolPaneFrame{
+	background-color:#f2f2f2;
+}
+
+.ms-ToolPaneOuter{
+	background-color:#fff;
+	border:1px solid #90959a;
+}
+
+.ms-ToolPaneClose{
+    background-color:#d3d3d3;
+    border-bottom:solid 1px #90959a;
+}
+
+.ms-ToolPaneTitle{
+    color:#000000;
+    background-color:#d3d3d3;
+    border-bottom:solid 1px #90959a;
+}
+
+.ms-toolpanefooter{
+    color:#595959;
+    background-color:#d3d3d3;
+}
+
+.ms-ToolPaneError{
+	color:#e00000;
+}
+
+.ms-ToolStripSelected{
+    background-color:#afd2ff;
+    border-top:solid 1px #f2f8ff;
+    border-bottom:solid 1px #d6e8ff;
+	color:#000000;
+}
+
+.ms-ToolStrip{
+    color:#000000;
+    border-top:solid 1px #f2f8ff;
+    border-bottom:solid 1px #d6e8ff;
+    background-color:#afd2ff;
+}
+
+.ms-TPHeader{
+    color:#333;
+    background-color:#ededed;
+}
+.ms-TPSubHeader,.ms-TPMinMaxTD{
+	border-bottom:1px solid #c4c4c4;
+}
+
+.ms-TPTitle{
+	color:#000;
+}
+
+.ms-TPSectionTD,.ms-TPBody .ms-propGridTable{
+	border-bottom:1px solid #c4c4c4;
+}
+
+.ms-TPBody{
+	color:#65686b;
+}
+
+.ms-TPBody a:link,.ms-TPBody a:visited,.ms-TPBody a:hover{
+	color:#0072bc;
+}
+
+.ms-PropGridBuilderButton{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */ border:solid 1px #3966bf;
+/* [ReplaceColor(themeColor:"Dark1-Lightest")] */ background-color:#add1ff;
+}
+
+.ms-SPZone{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+
+.ms-SPZone:hover{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border:1px solid #92c0e0;
+}
+
+.s4-wzActive,.ms-SPZoneSelected{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:1px solid #2a8dd4;
+}
+
+.ms-SPZoneIBar{
+/* [ReplaceColor(themeColor:"Accent2")] */ border:3px solid #0072bc;
+}
+
+.ms-SPZoneLabel{
+	color:#788990;
+}
+
+.ms-SPZoneTitle{
+	color:#788990;
+}
+.ms-SPZoneCaption{
+	color:#788990;
+}
+
+.ms-WPBorder{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+.ms-WPAddButton{
+	border-color: #394252;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-WPAddButton{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+.ms-WPAddButton:hover{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border:solid 1px #92c0e0;
+}
+.ms-ConnError{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+.ms-infobar{
+    background-color:#EDF0D9;
+    border:1px solid #999999;
+}
+
+.ms-consolestatuscell{
+	background-color:#d5dced;
+}
+.ms-consoleframe{
+    border-color:#83b0ec;
+}
+
+.ms-consolestatusframe{
+    background-color:#f6fdfd;
+    border-color:#FFFFFF;
+}
+
+.ms-consolestatuscheckoutframe,
+.ms-consoleminiframe{
+	background-color: #fff8b2;
+}
+
+.ms-consolestatus{
+	color:#666666;
+}
+
+.ms-consolestatus a{
+	color:#3966bf;
+}
+
+.ms-consolestatus a:hover{
+	color:#3966bf;
+}
+
+.ms-consoletoolbar{
+	color:#003399;
+}
+
+.ms-webpartpickerwarning{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+
+#MSOTlPn_MainTD option,
+#MSOTlPn_MainTD select,
+#MSOTlPn_MainTD button
+{
+    border-color:#d9d9d9;
+    background-color:#fff;
+    color:#65686b;
+}
+
+#ms-dnd-dropbox{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-color:#2a8dd4;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+
+.ms-core-needIEFilter #ms-dnd-dropbox{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+
+.ms-dnd-progressInfo{
+	color:#3b3b3b;
+}
+
+.ms-dnd-err{
+	color:#3b3b3b;
+}
+
+.ms-dragupload-error{
+	color:#3b3b3b;
+}
+.ms-droppable-menuitem-hover{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:#2a8dd4 2px dotted;
+}
+.ms-droppable-folder-hover{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:#2a8dd4 2px dotted;
+}
+
+.ms-dropsurface-div
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:#2a8dd4 1px solid;
+}
+
+.ms-progress-meter
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ background-color:#c6c6c6;
+}
+
+.ms-progress-meter-inner
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ background-color:#2a8dd4;
+}
+
+.ms-dnd-inprogress
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+	border-color: #394252;
+}
+.ms-core-needIEFilter .ms-dnd-inprogress{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+
+.s4-wpActive .s4-wpTopTable,.s4-wpActive .ms-WPSelected{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border:1px solid #92c0e0;
+}
+
+.ms-WPHeaderTdMenu{
+	border:1px solid transparent;
+}
+
+.ms-WPHeaderTdMenu:hover{
+/* [RecolorImage(themeColor:"AccentText")] */ background:url("/_layouts/15/images/selbg.png?rev=40") repeat-x left top;
+}
+
+.ms-WPTitle,.ms-WPTitle a{
+/* [ReplaceColor(themeColor:"WebPartHeading")] */ color:#444;
+}
+.s4-wpActive .ms-WPTitle,.s4-wpActive .ms-WPTitle a{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-webpart-zone-title
+{
+	color:#788990;
+}
+
+.s4-wpcell > .ms-webpart-chrome,
+.s4-wpActive > .ms-webpart-chrome
+{
+	border:1px solid transparent;
+}
+
+.ms-webpart-menuLink
+{
+	border:0px solid transparent;
+}
+
+.ms-webpart-menuLink:hover
+{
+	border-color: #394252;
+}
+
+.ms-WPBorderBorderOnly
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+
+.js-callout-mainElement
+{
+	background-color:#1B273D;
+	border-color: #394252;
+}
+
+.js-callout-footerArea
+{
+	background-color:#2F364F;
+}
+
+.ms-core-needIEFilter .js-callout-footerArea
+{
+	background-color: #2F364F;
+}
+
+.js-callout-content
+{
+	background-color:#1B273D;
+}
+
+.js-callout-location
+{
+/* [ReplaceColor(themeColor:"DisabledLines")] */ border-color:#e1e1e1;
+	background-color: #001122;
+}
+
+.js-callout-location:hover
+{
+	border-color: #394252;
+}
+
+.js-callout-usage
+{
+	background-color:#2F364F;
+}
+
+.js-folder-preview-count
+{
+	color:#000;
+}
+
+.js-callout-beakLeft,.js-callout-beakRight,.js-callout-beakTop,.js-callout-beakBottom
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1.0")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border-color:#d1d1d1;
+}
+
+.js-sharing-fullListDialogEntryPermissionsInnerContainer,
+.js-sharing-fullListDialogEntryPermissionsInnerContainer:link,
+.js-sharing-fullListDialogEntryPermissionsInnerContainer:hover,
+.js-sharing-fullListDialogEntryPermissionsInnerContainer:active,
+.js-sharing-fullListDialogEntryPermissionsInnerContainer:visited
+{
+/* [ReplaceColor(themeColor:"TopBarText")] */ color:#666;
+}
+
+.ms-comm-forumHeaderContainer{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:1px solid #c6c6c6;
+}
+
+.ms-comm-rootBestBackground{
+	background-color: #2F364F;
+}
+.ms-core-needIEFilter .ms-comm-rootBestBackground{
+	background-color: #2F364F;
+}
+
+.ms-comm-postReplyTextBox{
+	background-color:transparent;
+}
+
+.ms-comm-reputationBarSq{
+/* [ReplaceColor(themeColor:"AccentLines")] */ background-color:#2a8dd4;
+}
+
+.ms-comm-reputationBarSqLast{
+/* [ReplaceColor(themeColor:"AccentLines")] */ background-color:#2a8dd4;
+}
+
+.ms-comm-reputationBarSqEmpty{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ background-color:#c6c6c6;
+}
+
+.ms-comm-reputationBarSqEmptyLast{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ background-color:#c6c6c6;
+}
+
+.ms-comm-reputationSettingsTable{
+	border-color: #394252;
+}
+
+.ms-comm-reputationSettingsTable > tbody > tr > td{
+	border-color: #394252;
+}
+
+.ms-core-needIEFilter .ms-comm-reputationTextBestResponse{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff0072c6,endColorstr=#ff0072c6)";
+}
+
+.ms-comm-likesCount{
+/* [ReplaceColor(themeColor:"AccentLines")] */ color:#2a8dd4;
+}
+
+.ms-comm-reputationNumbers{
+/* [ReplaceColor(themeColor:"SubtleEmphasisCommandLinks")] */ color:#262626;
+}
+
+.ms-comm-metalineItemSeparator{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-right:1px solid #c6c6c6;
+}
+
+.ms-comm-ratingCountContainer{
+	color:#788990;
+}
+
+.ms-comm-ratingSeparator{
+	border-left:1px solid #788990;
+}
+
+.ms-comm-adminLinks{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+
+.ms-core-needIEFilter .ms-comm-adminLinks{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+.ms-group-defaultGroupLogo{
+    background-color:#b1b1b1;
+    color:#fff;
+}
+
+.ms-group-ql-info{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:1px solid #c6c6c6;
+}
+
+.ms-breadcrumb-menu{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+}
+
+.ms-core-listMenu-horizontalBox
+{
+/* [ReplaceColor(themeColor:"Navigation")] */ color:#666666;
+}
+
+.ms-core-header .ms-core-listMenu-horizontalBox
+{
+/* [ReplaceColor(themeColor:"HeaderNavigationText")] */ color:#666;
+}
+
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item
+{
+	border-color: transparent;
+}
+
+.ms-navedit-hiddenLink.ms-core-listMenu-item,
+.ms-navedit-hiddenLink.ms-core-listMenu-item:link,
+.ms-navedit-hiddenLink.ms-core-listMenu-item:visited
+{
+	color:#788990;
+}
+
+.ms-core-header .ms-navedit-hiddenLink.ms-core-listMenu-item,
+.ms-core-header .ms-navedit-hiddenLink.ms-core-listMenu-item:link,
+.ms-core-header .ms-navedit-hiddenLink.ms-core-listMenu-item:visited
+{
+/* [ReplaceColor(themeColor:"HeaderSubtleText")] */ color:#777;
+}
+
+.ms-core-listMenu-item,
+.ms-core-listMenu-item:link,
+.ms-core-listMenu-item:visited,
+.ms-tv-item:link,
+.ms-tv-item:visited,
+.ms-tv-header:link,
+.ms-tv-header:visited
+{
+	color:#CEFFFF;
+}
+
+.ms-core-header .ms-core-listMenu-item,
+.ms-core-header .ms-core-listMenu-item:link,
+.ms-core-header .ms-core-listMenu-item:visited,
+.ms-core-header .ms-tv-item:link,
+.ms-core-header .ms-tv-item:visited,
+.ms-core-header .ms-tv-header:link,
+.ms-core-header .ms-tv-header:visited
+{
+/* [ReplaceColor(themeColor:"HeaderNavigationText")] */ color:#666;
+}
+li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,
+li > a.ms-core-listMenu-item:hover,
+li > a.ms-core-listMenu-item:active
+{
+/* [ReplaceColor(themeColor:"NavigationHoverBackground",opacity:"1")] */ background-color:#cde6f7;
+/* [ReplaceColor(themeColor:"NavigationHoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover,
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,
+a.ms-tv-item:hover,
+a.ms-tv-header:hover
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"NavigationHover")] */ color:#0072c6;
+}
+.ms-core-header .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover,
+.ms-core-header a.ms-tv-item:hover,
+.ms-core-header a.ms-tv-header:hover
+{
+/* [ReplaceColor(themeColor:"HeaderNavigationHoverText")] */ color:#0072c6;
+}
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:active,
+a.ms-tv-item:active,
+a.ms-tv-header:active
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"NavigationPressed")] */ color:#004d85;
+}
+.ms-core-header .ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:active,
+.ms-core-header a.ms-tv-item:active,
+.ms-core-header a.ms-tv-header:active
+{
+/* [ReplaceColor(themeColor:"HeaderNavigationPressedText")] */ color:#004d85;
+}
+
+.ms-core-listMenu-selected:link,
+.ms-core-listMenu-selected:visited,
+.ms-core-listMenu-selected
+{
+    color: #666;
+/* [ReplaceColor(themeColor:"NavigationSelectedBackground",opacity:"1")] */ background-color:#efefef;
+/* [ReplaceColor(themeColor:"NavigationSelectedBackground")] */ background-color:rgba( 239,239,239,0.78 );
+}
+
+.ms-core-listMenu-selected:link:hover,
+.ms-core-listMenu-selected:visited:hover,
+.ms-core-listMenu-selected:hover {
+	color: #CEFFFF;
+}
+
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected,
+.ms-tv-selected:link
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"NavigationAccent")] */ color:#0072c6;
+}
+.ms-core-header .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link,
+.ms-core-header .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited,
+.ms-core-header .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected,
+.ms-core-header .ms-tv-selected:link
+{
+/* [ReplaceColor(themeColor:"HeaderNavigationSelectedText")] */ color:#0072c6;
+}
+.ms-core-listMenu-disabled,
+.ms-core-listMenu-disabled:link,
+.ms-core-listMenu-disabled:visited,
+.ms-core-listMenu-disabled:hover,
+.ms-core-listMenu-disabled:active
+{
+/* [ReplaceColor(themeColor:"DisabledText")] */ color:#b1b1b1;
+}
+.ms-core-header .ms-core-listMenu-disabled,
+.ms-core-header .ms-core-listMenu-disabled:link,
+.ms-core-header .ms-core-listMenu-disabled:visited,
+.ms-core-header .ms-core-listMenu-disabled:hover,
+.ms-core-header .ms-core-listMenu-disabled:active
+{
+/* [ReplaceColor(themeColor:"HeaderDisableText")] */ color:#b1b1b1;
+}
+
+ul.dynamic
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border:1px solid #d1d1d1;
+box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+}
+
+.ms-core-listMenu-ghost,
+.ms-core-listMenu-ghost:link,
+.ms-core-listMenu-ghost:visited,
+.ms-core-listMenu-ghost:hover,
+.ms-core-listMenu-ghost:active
+{
+	color:#788990;
+}
+
+.ms-core-header .ms-core-listMenu-ghost,
+.ms-core-header .ms-core-listMenu-ghost:link,
+.ms-core-header .ms-core-listMenu-ghost:visited,
+.ms-core-header .ms-core-listMenu-ghost:hover,
+.ms-core-header .ms-core-listMenu-ghost:active
+{
+	color:#788990;
+}
+
+.ms-core-listMenuEdit
+{
+	border:1px solid transparent;
+}
+
+.ms-core-listMenuEdit:hover
+{
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border:1px solid #d1d1d1;
+}
+
+.ms-navedit-editLinksText > span > .ms-metadata,
+.ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+.ms-navedit-editLinksText:hover > span > .ms-metadata,
+.ms-core-listMenuEdit:hover > tr > .ms-navedit-linkCell > .ms-core-listMenu-item
+{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+.ms-navedit-editLinksText:active > span > .ms-metadata,
+.ms-core-listMenuEdit:active > tr > .ms-navedit-linkCell > .ms-core-listMenu-item
+{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+.ms-core-header .ms-core-listMenuEdit > tr > td > .ms-core-listMenu-item:hover,
+.ms-core-header .ms-core-listMenuEdit > tr > td > .ms-core-listMenu-item:active
+{
+/* [ReplaceColor(themeColor:"HeaderNavigationText")] */ color:#666;
+}
+
+.ms-core-listMenuEdit > tr > td > .ms-core-listMenu-item:active
+{
+	background-color:transparent;
+}
+
+.ms-navedit-titleBoxContainer,
+.ms-navedit-titleBoxContainer ms-core-listMenu-selected,
+.ms-navedit-titleBoxContainer:hover,
+.ms-navedit-titleBoxContainer ms-core-listMenu-selected:hover
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:1px solid #2a8dd4;
+/* [ReplaceColor(themeColor:"Navigation")] */ color:#666666;
+}
+
+.ms-core-header .ms-navedit-titleBoxContainer,
+.ms-core-header .ms-navedit-titleBoxContainer ms-core-listMenu-selected,
+.ms-core-header .ms-navedit-titleBoxContainer:hover
+{
+/* [ReplaceColor(themeColor:"HeaderBackground",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"HeaderAccentLines")] */ border-color:#2a8dd4;
+/* [ReplaceColor(themeColor:"HeaderNavigationText")] */ color:#666;
+}
+
+.ms-core-listMenu-verticalBox div.ms-navedit-hiddenAppendArea
+{
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border-top:1px solid #d1d1d1;
+}
+
+.ms-core-listMenu-horizontalBox div.ms-navedit-hiddenAppendArea
+{
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border-left:1px solid #d1d1d1;
+}
+
+.ms-core-listMenu-verticalBox .ms-listMenu-editLink
+{
+	border:1px solid transparent;
+}
+
+.ms-vh-hoverable:hover
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-needIEFilter .ms-vh-hoverable:hover
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=rgba( 205,230,247,0.5 ),endColorstr=rgba( 205,230,247,0.5 ))";;
+}
+.ms-headerCellStyleHover
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-needIEFilter .ms-headerCellStyleHover{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";
+}
+.ms-headerCellStylePressed
+{
+/* [ReplaceColor(themeColor:"SelectionBackground",opacity:"1")] */ background-color:#9ccef0;
+}
+.ms-headerCellStyleMenuOpen
+{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+}
+.ms-core-needIEFilter .ms-headerCellStyleMenuOpen{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
+}
+
+.ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh2-nofilter-perm,.ms-vh a,.ms-vh2,.ms-vh2 a
+{
+	color:#788990;
+}
+
+.ms-headerCellStyleHover a,
+.ms-headerCellStylePressed a,
+.ms-headerCellStyleMenuOpen a
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+
+.ms-headerCellStyleIcon:hover
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-bottom-color:#2a8dd4;
+}
+
+.ms-cellstyle,.ms-cellStyleNonEditable,.ms-cellStyleMenuHover,.ms-MenuCellStyle-TdHover,.ms-MenuCellStyle-MenuDivHover
+{
+	border:solid 1px transparent;
+}
+
+.ms-vh-selectAllIcon:hover
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-needIEFilter .ms-vh-selectAllIcon:hover
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";;
+}
+
+.ms-vb-imgFirstCell:hover,.ms-vb-imgFirstCell:focus
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+
+.s4-itm-selected > .ms-vb-imgFirstCell.ms-vb-imgFirstCell
+{
+/* [ReplaceColor(themeColor:"RowAccent")] */ background-color:#0072c6;
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ border-right-color:rgba( 156,206,240,0.5 );
+}
+
+.ms-spgrid-col-header-normal
+{
+	color:#788990;
+	/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom-color:#c6c6c6;
+}
+
+.ms-spgrid-col-header-normal-hover
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom-color:#c6c6c6;
+}
+
+.ms-spgrid-col-header-part-selected
+{
+	color:#788990;
+    /* [ReplaceColor(themeColor:"AccentLines")] */ border-bottom-color:#2a8dd4;
+}
+
+.ms-spgrid-col-header-part-selected-hover
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-bottom-color:#2a8dd4;
+}
+
+.ms-spgrid-col-header-all-selected
+{
+	color:#788990;
+    /* [ReplaceColor(themeColor:"AccentLines")] */ border-bottom-color:#2a8dd4;
+}
+
+.ms-spgrid-col-header-all-selected-hover
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-bottom-color:#2a8dd4;
+}
+
+.ms-sectionheader
+{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-sectionheader a,.ms-sectionheader a:hover,.ms-sectionheader a:visited
+{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-listheaderlabel{
+	color:#FFFFFF;
+}
+
+div.ms-viewselector a,div.ms-viewselectorhover a.ms-menu-a span{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-splitbuttonhover{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+
+.ms-splitbuttonhover .ms-splitbuttondropdown,.ms-splitbuttonhover .ms-splitbuttontext{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+
+.ms-vh table.ms-selectedtitle,.ms-vh2 table.ms-selectedtitle,.ms-vh-icon table.ms-selectedtitle{
+/* [ReplaceColor(themeColor:"HeaderBackground")] */ background-color:rgba( 255,255,255,0.85 );
+}
+
+.ms-vh-icon .ms-selectedtitle .ms-vb,.ms-vh-icon .ms-unselectedtitle .ms-vb{
+	border-bottom:solid 3px transparent;
+}
+
+.ms-selectedtitle{
+/* [ReplaceColor(themeColor:"HeaderBackground")] */ background-color:rgba( 255,255,255,0.85 );
+/* [ReplaceColor(themeColor:"WebPartHeading")] */ border:1px solid #444;
+}
+
+.ms-selectedtitlealternative
+{
+/* [ReplaceColor(themeColor:"HeaderBackground")] */ background-color:rgba( 255,255,255,0.85 );
+/* [ReplaceColor(themeColor:"WebPartHeading")] */ border:1px solid #444;
+}
+
+.ms-unselectedtitle{
+	background-color:transparent;
+}
+
+.ms-menuimagecell{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ border:solid 1px #fff;
+}
+
+.ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh-icon-empty,.ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh2-nofilter-perm,.ms-vhImage,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-vh2-nofilter-icon,.ms-ph{
+	color:#788990;
+}
+
+.ms-gb,.ms-gb2,.ms-gbload,.ms-vb-tall,.ms-vb-user,.ms-pb,.ms-pb-selected td{
+	color:#FFFFFF;
+}
+.ms-gb a,.ms-gb2 a{
+	color:#788990;
+}
+
+th.ms-vh3-nograd{
+	color:#788990;
+}
+
+.ms-vh .ms-vh{
+	background-color:transparent;
+}
+
+.ms-gb{
+	border-color: #394252;
+}
+
+.ms-gb2{
+	color:#788990;
+}
+
+.ms-gbload{
+	color:#788990;
+}
+
+.ms-vb,.ms-vb2,.ms-vb-user,.ms-vb-tall,.ms-pb,.ms-pb-selected
+{
+	color:#FFFFFF;
+}
+
+.ms-vb a.ms-listlink,.ms-vb2 a.ms-listlink,.ms-vb-user a.ms-listlink,.ms-vb a.ms-listlink:visited,.ms-vb a.ms-listlink:visited:hover{
+	color:#FFFFFF;
+}
+
+.ms-vb a:visited,.ms-vb2 a:visited,.ms-vb-user a:visited{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072c6;
+}
+.ms-vb a:visited:hover,.ms-vb2 a:visited:hover,.ms-vb-user a:visited:hover{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072c6;
+}
+.ms-alternatingstrong .ms-vb a:link,.ms-alternatingstrong .ms-vb2 a:link,.ms-alternatingstrong .ms-vb-user a:link,.ms-alternatingstrong .ms-vb a:visited,.ms-alternatingstrong .ms-vb2 a:visited,.ms-alternatingstrong .ms-vb-user a:visited,.ms-alternatingstrong .ms-vb a:visited:hover,.ms-alternatingstrong .ms-vb2 a:visited:hover,.ms-alternatingstrong .ms-vb-user a:visited:hover{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072c6;
+}
+
+.ms-pb-selected{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ border-top:1px solid rgba( 156,206,240,0.5 );
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ border-bottom:1px solid rgba( 156,206,240,0.5 );
+}
+
+.ms-pb a,.ms-pb-selected a{
+	color:#FFFFFF;
+}
+
+th .ms-vb,.ms-vh2-nofilter-icon,th.ms-vh2-nograd,th.ms-vh2-nograd-icon{
+	color:#FFFFFF;
+}
+th .ms-vb a,.ms-vh2-nofilter-icon a{
+	color:#FFFFFF;
+}
+
+th .ms-selectedtitle .ms-vb,th .ms-selectedtitle .ms-vh2-nofilter-icon,th .ms-selectedtitle .ms-vb a,th .ms-selectedtitle .ms-vh2-nofilter-icon a{
+	color:#788990;
+}
+
+table.ms-listviewtable tbody tr.ms-newsletteralt td{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ border:1px solid #f1f1f1;
+}
+.ms-core-needIEFilter table.ms-listviewtable tbody tr.ms-newsletteralt td{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground",opacity:"1")] */ border:1px solid #efefef;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+table.ms-listviewtable tbody tr td.ms-newsletterline{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ border-top:1px solid #f1f1f1;
+}
+.ms-core-needIEFilter table.ms-listviewtable tbody tr td.ms-newsletterline{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground",opacity:"1")] */ border:1px solid #efefef;
+}
+.ms-nlline{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background:#f1f1f1;
+}
+
+.ms-basictable .ms-alternating{
+	background-color:transparent;
+}
+
+a.ms-addnew{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+a.ms-addnew:hover{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+
+.ms-list-emptyText{
+	color:#788990;
+}
+
+.ms-list-emptyText-compact{
+	color:#788990;
+}
+
+table.ms-listviewtable > tbody > tr > td.ms-stylebox{
+	border-color: #394252;
+}
+
+.ms-alternating
+{
+	background-color:transparent;
+}
+
+.ms-alternatingstrong
+{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+.ms-core-needIEFilter .ms-alternatingstrong{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+.ms-vb-title .s4-ctx-show
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-needIEFilter .ms-vb-title .s4-ctx-show
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
+}
+.ms-itmHoverEnabled:hover > *{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+border:1px solid transparent;
+}
+.ms-itmHoverEnabled:hover .ms-list-itemLink-td{
+/* [ReplaceColor(themeColor:"HoverBackground",opacity:"1")] */ background-color:#cde6f7;
+}
+.s4-itm-selected > *,.s4-itm-selected:hover > *{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+border:1px solid transparent;
+}
+.s4-itm-selected .ms-list-itemLink-td,.s4-itm-selected:hover .ms-list-itemLink-td{
+/* [ReplaceColor(themeColor:"SelectionBackground",opacity:"1")] */ background-color:#9ccef0;
+}
+.ms-core-needIEFilter .s4-itm-selected>td,.ms-core-needIEFilter .s4-itm-selected:hover>td{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
+}
+
+.s4-ctx > a > img{
+border:0px none transparent;
+}
+
+.s4-ctx > a > img:visited,.ctxImg > a > img:hover{
+	border:0px none transparent;
+}
+
+.ms-viewselectorhover .ms-viewselector-currentView{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-pivotControl-surfacedOpt,
+.ms-pivotControl-overflowDot{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+.ms-pivotControl-surfacedOpt:hover,
+.ms-pivotControl-overflowDot:hover,
+.ms-pivotControl-surfacedOpt-selected{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+
+.ms-ellipsis-icon-tile
+{
+/* [ReplaceColor(themeColor:"TileText")] */ color:#fff;
+}
+
+table.ms-toolbar{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+
+.ms-menutoolbar{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:1px solid #c6c6c6;
+}
+
+.ms-menubuttoninactivehover,.ms-buttoninactivehover{
+    border:1px solid transparent;
+    background-color:transparent;
+}
+.ms-menubuttonactivehover,.ms-buttonactivehover{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:solid 1px #c6c6c6;
+}
+
+.ms-InlineSearch-Outline-Empty
+{
+	border-color: #394252;
+}
+.ms-InlineSearch-Outline-Focused
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-color:#2a8dd4;
+}
+.ms-InlineSearch-Outline-Filled
+{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border-color:#92c0e0;
+}
+
+input.ms-InlineSearch-SearchBox-Baseline.ms-InlineSearch-SearchBox-Baseline
+{
+	background-color:transparent;
+}
+
+.ms-InlineSearch-SearchBox-EmptyFocused
+{
+	color:#FFFFFF;
+}
+
+.ms-InlineSearch-SearchBox-EmptyUnfocused.ms-InlineSearch-SearchBox-EmptyUnfocused
+{
+	color:#788990;
+}
+
+.ms-InlineSearch-SearchBox-Filled.ms-InlineSearch-SearchBox-Filled
+{
+	color:#FFFFFF;
+}
+
+.ms-InlineSearch-SearchProgress
+{
+background-color:transparent;
+}
+
+.ms-InlineSearch-SearchStatus
+{
+background-color:transparent;
+}
+
+.ms-vl-sectionHeaderRow
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-bottom:solid 1px #c6c6c6;
+}
+
+.ms-vl-recent
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ color:#fff;
+/* [ReplaceColor(themeColor:"SearchURL")] */ background-color:#338200;
+}
+.ms-vl-callout-beak
+{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+.ms-core-needIEFilter .ms-vl-callout-beak
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+.ms-vl-apptitle,a:visited.ms-vl-apptitle
+{
+	border:1px solid transparent;
+	color:#FFFFFF;
+}
+
+.ms-vl-calloutarrow,a:hover.ms-vl-calloutarrow
+{
+	color:#FFFFFF;
+}
+
+a.ms-vl-disabledapp
+{
+/* [ReplaceColor(themeColor:"DisabledText")] */ color:#b1b1b1;
+}
+.ms-vl-disabledapp > div
+{
+/* [ReplaceColor(themeColor:"DisabledText")] */ color:#b1b1b1;
+}
+
+.ms-vl-disabledapp > .ms-vl-appimage
+{
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ background-color:#fdfdfd;
+}
+
+.ms-vl-apptile {
+    background-color: #1B273D;
+}
+
+.ms-vl-apptileselected
+{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+}
+.ms-vl-apptilehover:hover
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+
+.ms-vl-apptilehover:hover .ms-metadata {
+	color: #FFF !important;
+}
+
+.ms-newdoc-callout-item:hover
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-needIEFilter .ms-newdoc-callout-item:hover
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";;
+}
+
+input.sp-peoplepicker-editorInput[type=text]{
+	background-color:transparent;
+}
+
+
+.sp-peoplepicker-autoFillContainer{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-color:#c6c6c6;
+}
+
+.sp-peoplepicker-userDisplayLink{
+	color:#FFFFFF;
+}
+
+.sp-peoplepicker-autoFillContainer .sp-autoFill-scroll{
+    box-shadow:0px 0px 0px 0px transparent;
+    /* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1.0")] */ background-color:#fff;
+}
+
+.ms-featurealtrow
+{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+.ms-core-needIEFilter .ms-featurealtrow
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+.ms-featurestatus
+{
+/* [ReplaceColor(themeColor:"EmphasisText")] */ color:#fff;
+/* [ReplaceColor(themeColor:"EmphasisBackground",opacity:"1")] */ background-color:#0072c6;
+}
+
+.ms-storMeFree{
+    /* [ReplaceColor(themeColor:"SubtleEmphasisBackground",opacity:"1")] */ background-color:#efefef;
+    /* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+.ms-storMeUsed{
+    /* [ReplaceColor(themeColor:"EmphasisBackground",opacity:"1")] */ background-color:#0072c6;
+    /* [ReplaceColor(themeColor:"EmphasisText")] */ color:#fff;
+}
+
+
+.ms-storman-quotabarnormalcol{
+	border-color:#649b61;
+}
+
+.ms-storman-quotabarwarningcol{
+	border-color:#fff19d;
+}
+
+.ms-storman-quotabarcriticalcol{
+	border-color:#d80303;
+}
+
+.ms-linksection-title
+{
+	color:#FFFFFF;
+}
+
+div.ms-dragDropAttract
+{
+	border:2px dashed #c6c6c6;
+}
+
+.ms-trcnoti-border
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+}
+
+.ms-trcnoti-bg{
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border-color:#d1d1d1;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+	box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+}
+.ms-trcnoti-bg:hover{
+/* [ReplaceColor(themeColor:"StrongLines")] */ border-color:#92c0e0;
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+	box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+}
+.ms-core-needIEFilter .ms-trcnoti-bg:hover{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";
+}
+
+.ms-designgallery-thumbnail
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+
+.ms-designgallery-thumbnail:hover
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:1px solid #2a8dd4;
+}
+
+a.ms-designgallery-name
+{
+	color:#FFFFFF;
+}
+
+div.ms-designgallery-item-current > .ms-designgallery-thumbnail
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border:3px solid #2a8dd4;
+}
+
+div.ms-designgallery-item-current a.ms-designgallery-packagename
+{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#0072c6;
+}
+
+#ms-designbuilder-imagecontrol-box
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+
+.ms-core-needIEFilter #ms-designbuilder-imagecontrol-box
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+#ms-designbuilder-imagecontrol-placeholdertext
+{
+	color:#788990;
+}
+
+#ms-designbuilder-imagecontrol-errortext
+{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+
+#ms-designbuilder-cuicontainer .ms-cui-dd-text
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter #ms-designbuilder-cuicontainer .ms-cui-dd-text
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+
+#ms-designbuilder-cuicontainer .ms-cui-dd-text > a
+{
+	color:#FFFFFF;
+}
+
+#ms-designbuilder-cuicontainer .ms-cui-ctl-light-hoveredOver,
+#ms-designbuilder-cuicontainer .ms-cui-dd-arrow-button:hover,
+#ms-designbuilder-cuicontainer .ms-cui-dd-arrow-button:focus
+{
+/* [ReplaceColor(themeColor:"ButtonHoverBackground")] */ background-color:#e6f2fa;
+/* [ReplaceColor(themeColor:"ButtonHoverBorder")] */ border-color:#92c0e0;
+}
+.ms-core-needIEFilter #ms-designbuilder-cuicontainer .ms-cui-ctl-light-hoveredOver,
+.ms-core-needIEFilter #ms-designbuilder-cuicontainer .ms-cui-dd-arrow-button:hover,
+.ms-core-needIEFilter #ms-designbuilder-cuicontainer .ms-cui-dd-arrow-button:focus
+{
+/* [ReplaceColor(themeColor:"ButtonHoverBackground",opacity:"1")] */ background-color:#e6f2fa;
+/* [ReplaceColor(themeColor:"ButtonHoverBorder",opacity:"1")] */ border-color:#92b7d1;
+}
+#ms-designbuilder-cuicontainer .ms-cui-dd-arrow-button:active
+{
+/* [ReplaceColor(themeColor:"ButtonPressedBackground")] */ background-color:#92c0e0;
+/* [ReplaceColor(themeColor:"ButtonPressedBorder")] */ border-color:#2a8dd4;
+}
+.ms-core-needIEFilter #ms-designbuilder-cuicontainer .ms-cui-dd-arrow-button:active
+{
+/* [ReplaceColor(themeColor:"ButtonPressedBackground",opacity:"1")] */ background-color:#92b7d1;
+/* [ReplaceColor(themeColor:"ButtonPressedBorder",opacity:"1")] */ border-color:#2a8dd4;
+}
+#ms-designbuilder-palette-Medium
+{
+	background-color:transparent;
+}
+
+#ms-designbuilder-palette-Medium .ms-cui-dd-text
+{
+	background-color:transparent;
+}
+
+#ms-designbuilder-palette-menusection .ms-cui-menusection,#ms-designbuilder-layout-menusection .ms-cui-menusection
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+}
+
+#ms-designbuilder-layout-menusection .ms-cui-ctl-mediumlabel
+{
+	color:#FFFFFF;
+}
+
+#ms-designbuilder-palette-menusection .ms-cui-gallerybutton-a:hover .ms-designbuilder-palette-color,
+#ms-designbuilder-palette-menusection .ms-cui-gallerybutton-a:focus .ms-designbuilder-palette-color
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-color:#2a8dd4;
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-right-color:#ababab;
+}
+
+#ms-designbuilder-palette-menusection .ms-cui-gallerybutton-a:hover .ms-designbuilder-palette-color3,
+#ms-designbuilder-palette-menusection .ms-cui-gallerybutton-a:focus .ms-designbuilder-palette-color3
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-right-color:#2a8dd4;
+}
+
+.ms-designbuilder-palette-color
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+
+
+#ms-designbuilder-layout-menusection a.ms-cui-ctl-menu:hover,
+#ms-designbuilder-layout-menusection a.ms-cui-ctl-menu:focus
+{
+/* [ReplaceColor(themeColor:"AccentLines")] */ border-color:#2a8dd4;
+	background-color:transparent;
+}
+
+#ms-designbuilder-fontscheme-Medium .ms-cui-dd-text
+{
+    background-color:#fff;
+    color:#000;
+}
+
+#ms-designbuilder-fontscheme-menusection .ms-cui-gallerybutton-a:hover,
+#ms-designbuilder-fontscheme-menusection .ms-cui-gallerybutton-a:focus,
+#ms-designbuilder-fontscheme-menusection ul.ms-cui-menusection-items > li.ms-cui-menusection-items:last-child .ms-cui-gallerybutton-a:hover,
+#ms-designbuilder-fontscheme-menusection ul.ms-cui-menusection-items > li.ms-cui-menusection-items:last-child .ms-cui-gallerybutton-a:focus
+{
+	border-color: #c6c6c6;
+}
+
+.ms-designbuilder-fontScheme
+{
+	color:#000;
+}
+
+#ms-designbuilder-previewglass
+{
+	background-color:#fff;
+}
+
+.ms-core-needIEFilter #ms-designbuilder-previewglass
+{
+	background-color:#fff;
+}
+
+.ms-designbuilder-thumbnail
+{
+    /* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+    background-color:#fff;
+}
+
+a.ms-designbuilder-navbutton:link,a.ms-designbuilder-navbutton:visited
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+
+a.ms-designbuilder-navbutton:hover,
+a.ms-designbuilder-navbutton:focus
+{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+
+a.ms-designbuilder-navbutton:active
+{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+
+.ms-blog-postBox{
+	border-color: #394252;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-blog-postBox{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+.ms-blog-postBoxDate{
+/* [ReplaceColor(themeColor:"EmphasisText")] */ color:#fff;
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ background-color:#0072c6;
+/* [ReplaceColor(themeColor:"EmphasisBorder")] */ border-color:#0067b0;
+}
+
+.ms-blog-postInlineDate{
+    border-color: #394252;
+}
+
+.ms-blog-commandWithSeparator
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-right:1px solid #c6c6c6;
+/* [ReplaceColor(themeColor:"Dark1-Lightest")] */ border-color:#d7d7d7;
+}
+
+.ms-blog-adminLinks{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground",opacity:"1")] */ background-color:#efefef;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+
+.ms-dlgOverlay
+{
+	background-color:#999;
+}
+
+.ms-dlgContent
+{
+	border-color: #394252;
+	background-color: #1B273D;
+	box-shadow:0px 0px 30px 0px rgba(0,0,0,0.47);
+}
+.ms-dlgContentNoBorder
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1.0")] */ background-color:#fff;
+box-shadow:0px 0px 30px 0px rgba(0,0,0,0.47);
+}
+.ms-dlgContentThinShadow
+{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1.0")] */ background-color:#fff;
+box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+}
+.ms-dlg-heading,
+h2.ms-dlg-heading
+{
+	color:#FFFFFF;
+}
+
+.ms-dlgCloseBtn > span
+{
+	border:1px solid transparent;
+}
+
+.ms-dialog body{
+	background-color:#1B273D;
+}
+
+.ms-core-menu-box,
+.ms-core-menu-boxBig
+{
+	background-color:#1B273D;
+	border-color: #394252;
+	box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+}
+
+.ms-core-needIEFilter .ms-core-menu-box,
+.ms-core-needIEFilter .ms-core-menu-boxBig
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+
+.ms-core-menu-label,
+.ms-core-menu-labelCompact
+{
+	border:1px solid transparent;
+}
+
+a.ms-core-menu-link
+{
+	color:#FFFFFF;
+}
+
+.ms-core-menu-item:hover,
+.ms-core-menu-itemSelected
+{
+/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+}
+.ms-core-menu-item[disabled=true]:hover,
+.ms-core-menu-itemDisabled.ms-core-menu-item:hover,
+.ms-core-menu-itemDisabled.ms-core-menu-itemSelected
+{
+	background-color:transparent;
+}
+
+.ms-core-needIEFilter .ms-core-menu-item:hover,
+.ms-core-needIEFilter .ms-core-menu-itemSelected
+{
+/* [ReplaceColor(themeColor:"HoverBackground",opacity:"1")] */ background-color:#cde6f7;
+}
+
+.ms-core-needIEFilter .ms-core-menu-item[disabled=true]:hover,
+.ms-core-needIEFilter .ms-core-menu-itemDisabled.ms-core-menu-item:hover,
+.ms-core-needIEFilter .ms-core-menu-itemDisabled.ms-core-menu-itemSelected
+{
+	background-color:transparent;
+}
+
+.ms-core-menu-item[disabled=true] > .ms-core-menu-link > .ms-core-menu-label > .ms-core-menu-title,
+.ms-core-menu-itemDisabled > .ms-core-menu-link > .ms-core-menu-label > .ms-core-menu-title
+{
+/* [ReplaceColor(themeColor:"DisabledText")] */ color:#b1b1b1;
+}
+
+.ms-core-menu-staticItemSelected,
+.ms-core-menu-staticItemSelected:hover
+{
+/* [ReplaceColor(themeColor:"SelectionBackground")] */ background-color:rgba( 156,206,240,0.5 );
+}
+.ms-core-needIEFilter .ms-core-menu-staticItemSelected,
+.ms-core-needIEFilter .ms-core-menu-staticItemSelected:hover
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"SelectionBackground",opacity:"1")] */ background-color:#9ccef0;
+}
+
+.ms-core-menu-separatorHr
+{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ color:#c6c6c6;
+}
+
+.ms-core-menu-link:link,
+.ms-core-menu-link:visited
+{
+	color:#FFFFFF;
+}
+
+.ms-contextmenu-box{
+    background-color:white;
+    box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+	border:1px solid #d1d1d1;
+}
+
+.ms-contextmenu-overlay{
+	background-color:#fff;
+	opacity:0.0;
+}
+
+.ms-contextmenu-link:hover,
+.ms-contextmenu-link:visited,
+.ms-contextmenu-itemSelected
+{
+	background-color:#E6F3FB;
+}
+
+.ms-contextmenu-item[disabled=true] > .ms-contextmenu-link,
+.ms-contextmenu-itemDisabled > .ms-contextmenu-link
+{
+	color:#b1b1b1;
+}
+
+.ms-contextmenu-link{
+	color:#444444;
+}
+
+.ms-contextmenu-separatorHr{
+	border-top:1px solid #C6C6C6;
+}
+
+.ms-cui-ribbon,.ms-cui-menu,.ms-cui-toolbar-toolbar{
+	color:#6c6e70;
+}
+
+.ms-cui-jewel-label{
+	color:#fff;
+}
+
+.ms-cui-QATRowCenter{
+	color:#68696b;
+}
+
+.ms-cui-modalDiv-ff{
+	background-color:transparent;
+}
+
+.ms-cui-glass-ff{
+	background-color:transparent;
+}
+
+.ms-cui-topBar2{
+/* [ReplaceColor(themeColor:"TopBarBackground")] */ border-bottom:1px solid rgba( 239,239,239,0.78 );
+}
+
+
+.ms-cui-tt-a{
+	color:#fff !important;
+}
+
+.ms-cui-tt-s > .ms-cui-tt-a{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ border-color:#b6babf;
+	background-color:#fff;
+	color:#23272c !important;
+}
+
+.ms-cui-tt-a:hover{
+/* [ReplaceColor(themeColor:"Dark2",themeTint:"0.8")] */ border-color:#5a707b;
+	color:#fff !important;
+}
+
+.ms-cui-tt-s .ms-cui-tt-a:hover{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ border-color:#b6babf;
+	color:#23272c !important;
+}
+
+.ms-cui-tabBody{
+    background-color:#fff;
+    border-bottom-color:#e1e1e1;
+}
+
+.ms-cui-groupTitle{
+	color:#666;
+}
+
+.ms-cui-groupSeparator{
+	border-right-color:#e7e7e8;
+}
+
+.ms-cui-section-divider{
+    border-left-color:#c2c6ca;
+	border-right-color:#fff;
+}
+
+.ms-cui-strip{
+	border-color: #e1e3e4;
+}
+
+.sp-menu-disabled{
+    color:#5b626c;
+    background-color:#C6C6C6;
+}
+
+.ms-cui-toolbar-toolbar{
+	background-color:#fff;
+}
+
+.ms-cui-toolbar-toolbar .ms-cui-ribbonTopBars .ms-cui-topBar2
+{
+	border-bottom:1px solid #868b91;
+}
+
+.ms-cui-contextmenu-inner{
+	background-color:#fafafa;
+}
+
+.ms-cui-contextmenu{
+	border:solid #7f7f7f 1px;
+}
+
+.ms-cui-disabled *{
+	color:#5b626c !important;
+}
+.ms-cui-disabled .ms-cui-img-container,.ms-cui-disabled .ms-cui-img-cont-float,.ms-cui-disabled .ms-cui-jewel-left,.ms-cui-disabled .ms-cui-jewel-middle,.ms-cui-disabled .ms-cui-jewel-right{
+	background-color:#fff !important;
+}
+
+.ms-cui-disabled .ms-cui-jewel-middle .ms-cui-jewel-label{
+	color:#fff !important;
+}
+
+.ms-cui-cg-s .ms-cui-tt-a{
+	color:#23272c !important;
+}
+
+.ms-cui-cg-db.ms-cui-cg{
+	border-top-color:#508ee6;
+}
+
+.ms-cui-ct-topBar-db,.ms-cui-tabBody-db{
+	border-color:#508ee6 !important;
+}
+
+.ms-cui-cg-db .ms-cui-ct-ul{
+	border-color:#508ee6;
+}
+
+.ms-cui-cg-db .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-db .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+	color:#34609d !important;
+}
+.ms-cui-cg-db.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-db.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+	border-color:#508ee6;
+}
+.ms-cui-cg-db .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-db .ms-cui-ct-first > .ms-cui-tt-a:hover{
+	border-left-color:#508ee6;
+}
+.ms-cui-cg-db .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-db .ms-cui-ct-last > .ms-cui-tt-a:hover{
+	border-right-color:#508ee6;
+}
+.ms-cui-cg-lb.ms-cui-cg{
+	border-top-color:#36a7ca;
+}
+.ms-cui-ct-topBar-lb,.ms-cui-tabBody-lb{
+	border-color:#36a7ca !important;
+}
+.ms-cui-cg-lb .ms-cui-ct-ul{
+	border-color:#36a7ca;
+}
+.ms-cui-cg-lb .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-lb .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+	color:#368499 !important;
+}
+.ms-cui-cg-lb.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-lb.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+	border-color:#36a7ca;
+}
+.ms-cui-cg-lb .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-lb .ms-cui-ct-first > .ms-cui-tt-a:hover{
+	border-left-color:#36a7ca;
+}
+.ms-cui-cg-lb .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-lb .ms-cui-ct-last > .ms-cui-tt-a:hover{
+	border-right-color:#36a7ca;
+}
+.ms-cui-cg-tl.ms-cui-cg{
+	border-top-color:#2299ab;
+}
+.ms-cui-ct-topBar-tl,.ms-cui-tabBody-tl{
+	border-color:#2299ab !important;
+}
+.ms-cui-cg-tl .ms-cui-ct-ul{
+	border-color:#2299ab;
+}
+.ms-cui-cg-tl .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-tl .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+	color:#006c7d !important;
+}
+.ms-cui-cg-tl.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-tl.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+	border-color:#2299ab;
+}
+.ms-cui-cg-tl .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-tl .ms-cui-ct-first > .ms-cui-tt-a:hover{
+	border-left-color:#2299ab;
+}
+.ms-cui-cg-tl .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-tl .ms-cui-ct-last > .ms-cui-tt-a:hover{
+	border-right-color:#2299ab;
+}
+.ms-cui-cg-or.ms-cui-cg{
+	border-top-color:#ff9d00;
+}
+.ms-cui-ct-topBar-or,.ms-cui-tabBody-or{
+	border-color:#ff9d00 !important;
+}
+.ms-cui-cg-or .ms-cui-ct-ul{
+	border-color:#ff9d00;
+}
+.ms-cui-cg-or .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-or .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+	color:#c45300 !important;
+}
+.ms-cui-cg-or.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-or.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+	border-color:#ff9d00;
+}
+.ms-cui-cg-or .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-or .ms-cui-ct-first > .ms-cui-tt-a:hover{
+	border-left-color:#ff9d00;
+}
+.ms-cui-cg-or .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-or .ms-cui-ct-last > .ms-cui-tt-a:hover{
+	border-right-color:#ff9d00;
+}
+.ms-cui-cg-gr.ms-cui-cg{
+	border-top-color:#49a349;
+}
+.ms-cui-ct-topBar-gr,.ms-cui-tabBody-gr{
+	border-color:#49a349 !important;
+}
+.ms-cui-cg-gr .ms-cui-ct-ul{
+	border-color:#49a349;
+}
+.ms-cui-cg-gr .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-gr .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+	color:#067006 !important;
+}
+.ms-cui-cg-gr.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-gr.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+	border-color:#49a349;
+}
+.ms-cui-cg-gr .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-gr .ms-cui-ct-first > .ms-cui-tt-a:hover{
+	border-left-color:#49a349;
+}
+.ms-cui-cg-gr .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-gr .ms-cui-ct-last > .ms-cui-tt-a:hover{
+	border-right-color:#49a349;
+}
+.ms-cui-cg-mg.ms-cui-cg{
+	border-top-color:#c9599c;
+}
+.ms-cui-ct-topBar-mg,.ms-cui-tabBody-mg{
+	border-color:#c9599c !important;
+}
+.ms-cui-cg-mg .ms-cui-ct-ul{
+	border-color:#c9599c;
+}
+.ms-cui-cg-mg .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-mg .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+	color:#9c276d !important;
+}
+.ms-cui-cg-mg.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-mg.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+border-color:#c9599c;
+}
+.ms-cui-cg-mg .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-mg .ms-cui-ct-first > .ms-cui-tt-a:hover{
+border-left-color:#c9599c;
+}
+.ms-cui-cg-mg .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-mg .ms-cui-ct-last > .ms-cui-tt-a:hover{
+border-right-color:#c9599c;
+}
+.ms-cui-cg-yl.ms-cui-cg{
+border-top-color:#f2cb1d;
+}
+.ms-cui-ct-topBar-yl,.ms-cui-tabBody-yl{
+border-color:#f2cb1d !important;
+}
+.ms-cui-cg-yl .ms-cui-ct-ul{
+background-color:transparent;;
+border-color:#f2cb1d;
+}
+.ms-cui-cg-yl .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-yl .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+color:#856300 !important;
+}
+.ms-cui-cg-yl.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-yl.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+border-color:#f2cb1d;
+}
+.ms-cui-cg-yl .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-yl .ms-cui-ct-first > .ms-cui-tt-a:hover{
+border-left-color:#f2cb1d;
+}
+.ms-cui-cg-yl .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-yl .ms-cui-ct-last > .ms-cui-tt-a:hover{
+border-right-color:#f2cb1d;
+}
+.ms-cui-cg-pp.ms-cui-cg{
+border-top-color:#935ed3;
+}
+.ms-cui-ct-topBar-pp,.ms-cui-tabBody-pp{
+border-color:#935ed3 !important;
+}
+.ms-cui-cg-pp .ms-cui-ct-ul{
+	border-color:#935ed3;
+}
+.ms-cui-cg-pp .ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-cg-pp .ms-cui-tt > .ms-cui-tt-a:hover > .ms-cui-tt-span{
+	color:#6b25ba !important;
+}
+.ms-cui-cg-pp.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a,.ms-cui-cg-pp.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
+border-color:#935ed3;
+}
+.ms-cui-cg-pp .ms-cui-ct-first > .ms-cui-tt-a,.ms-cui-cg-pp .ms-cui-ct-first > .ms-cui-tt-a:hover{
+border-left-color:#935ed3;
+}
+.ms-cui-cg-pp .ms-cui-ct-last > .ms-cui-tt-a,.ms-cui-cg-pp .ms-cui-ct-last > .ms-cui-tt-a:hover{
+border-right-color:#935ed3;
+}
+
+.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a{
+	background-color:#fff;
+}
+
+.ms-cui-ctl-large:hover,
+.ms-cui-ctl-medium:hover,
+.ms-cui-ctl-large:focus,
+.ms-cui-ctl-medium:focus,
+.ms-cui-ctl:hover,
+.ms-cui-ctl:focus,
+.ms-cui-dd-arrow-button:hover,
+.ms-cui-dd-arrow-button:focus{
+	border-color:#92b7d1;
+}
+.ms-cui-ctl-light-hoveredOver,
+.ms-cui-ctl-menu:hover,
+.ms-cui-ctl-menu:focus,
+.ms-cui-dd-arrow-button:hover,
+.ms-cui-dd-arrow-button:focus,
+.ms-cui-cb-input:hover,
+.ms-cui-cb-input:focus,
+.ms-cui-spn-btnup:hover,
+.ms-cui-spn-btnup:focus,
+.ms-cui-spn-btndown:hover,
+.ms-cui-spn-btndown:focus,
+.ms-cui-ctl-hoveredOver,
+.ms-cui-ctl-large-groupPopup:hover{
+	background-color:#cde6f7;
+}
+.ms-cui-ctl-large:active,
+.ms-cui-ctl-medium:active,
+.ms-cui-ctl-light-hoveredOver:active,
+.ms-cui-ctl:active,
+.ms-cui-ctl-menu:active,
+.ms-cui-dd-arrow-button:active,
+.ms-cui-cb-input:active,
+.ms-cui-spn-btnup:active,
+.ms-cui-spn-btndown:active{
+	border-color:#92b7d1;
+	background-color:#92b7d1;
+}
+
+.ms-cui-ctl-split-hover{
+	background-color:#fff;
+}
+
+.ms-cui-ctl-on{
+	border-color:#cde6f7;
+	background-color:#cde6f7 !important;
+}
+.ms-cui-disabled{
+	color:#767676;
+}
+.ms-cui-spn-txtbx,
+.ms-cui-spn-btnup,
+.ms-cui-spn-btndown{
+	border:1px solid #ababab;
+}
+
+.ms-cui-spn-txtbx{
+	color:#3B3B3B;
+}
+.ms-cui-spn-btnup:hover,
+.ms-cui-spn-btnup-ctl-hover,
+.ms-cui-spn-btndown:hover,
+.ms-cui-spn-btndown-ctl-hover,
+.ms-cui-spn-txtbx-hover
+{
+	border-color:#92b7d1;
+}
+
+.ms-cui-ctl-largelabel,
+.ms-cui-ctl-mediumlabel{
+	color:#23272c;
+}
+.ms-cui-groupBody input[type=text]{
+    border-color:#d3d6d9;
+    background-color:#fff;
+    color:#000;
+}
+
+.ms-cui-groupBody input[type=text]:hover{
+    background-color:#fff;
+    border-color:#bbbfc4;
+}
+
+.ms-cui-groupBody input[type=text]:focus{
+	border-color:#bbbfc4;
+}
+
+.ms-cui-ctl-large .ms-cui-ctl-a1,
+.ms-cui-ctl-large .ms-cui-ctl-a2{
+	border:1px solid transparent;
+}
+
+.ms-cui-ctl-large .ms-cui-ctl-a2{
+	border-top:0px !important;
+}
+.ms-cui-disabled:hover,.ms-cui-ctl-a1.ms-cui-disabled:hover *,.ms-cui-ctl-large.ms-cui-disabled:hover *,.ms-cui-ctl-large.ms-cui-disabled:hover,.ms-cui-ctl-thin.ms-cui-disabled:hover,.ms-cui-ctl-menu.ms-cui-disabled:hover,.ms-cui-gallerybutton-a.ms-cui-disabled:hover{
+	border-color:transparent !important;
+	background-color:transparent;
+}
+
+.ms-cui-disabled:active,.ms-cui-ctl2-disabled:active,.ms-cui-ctl2-disabled:active .ms-cui-ctl-a1,.ms-cui-ctl2-disabled:active .ms-cui-ctl-a2{
+	background-color:transparent !important;
+}
+
+.ms-cui-ctl-disabledHoveredOver,.ms-cui-disabled.ms-cui-ctl-menu:active{
+	border-color:#ededed !important;
+	background-color:#fafafa;
+}
+
+.ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer,.ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer{
+	border:1px solid #b2b5b9;
+}
+
+.ms-cui-ctl-thin
+{
+	border-color:#afb4ba;
+}
+
+.ms-cui-menusection-items32 .ms-cui-ctl-mediumlabel,.ms-cui-menusection-items32rtl .ms-cui-ctl-mediumlabel,.ms-cui-btn-menu-description{
+	color: #4c535c;
+}
+
+.ms-cui-dd-text,input.ms-cui-cb-input{
+	border-color: #d3d6d9;
+}
+
+.ms-cui-dd-text > a,.ms-cui-cb-input > a{
+	color:#000;
+}
+
+.ms-cui-dd-arrow-button{
+	border-color:#d3d6d9;
+}
+
+.ms-cui-dd:hover .ms-cui-dd-text,.ms-cui-cb:hover .ms-cui-cb-input{
+    background-color:#fff;
+    border-color:#bbbfc4;
+}
+
+.ms-cui-dd.ms-cui-disabled:hover .ms-cui-dd-text,.ms-cui-cb.ms-cui-disabled:hover .ms-cui-cb-input{
+    background-color:inherit !important;
+    border-color:#d3d6d9 !important;
+}
+
+.ms-cui-fslb{
+	color:#23272c;
+}
+
+.ms-cui-tb{
+    border-color: #d4d6d9;
+    background-color:#fff !important;
+}
+
+.ms-cui-tb.ms-cui-disabled:hover{
+    border-color:#d4d6d9 !important;
+}
+
+.ms-cui-groupBody .ms-cui-tb-labelmode{
+	color:black;
+}
+
+.ms-cui-cbx label{
+	color:#23272c;
+}
+
+.ms-cui-gallerybutton-Size64by48 .ms-cui-gallerybutton-a{
+	border-color: #afb4ba;
+}
+
+.ms-cui-gallerybutton:hover{
+	border-color:#ffea93;
+}
+
+.ms-cui-gallerybutton-highlighted{
+	border-color:#ffdc63;
+}
+
+.ms-cui-gallerybutton-highlighted:hover{
+	border-color:#fea910;
+}
+
+.ms-cui-colorpicker-celldiv{
+	border-color:#E2E4E7;
+}
+
+.ms-cui-colorpicker-cellinternaldiv{
+	border:1px solid transparent;
+}
+
+.ms-cui-colorpicker-cell.ms-cui-colorpicker-hoveredOver .ms-cui-colorpicker-celldiv{
+	border-color:#F29436 !important;
+}
+
+.ms-cui-colorpicker-cell.ms-cui-colorpicker-hoveredOver .ms-cui-colorpicker-cellinternaldiv{
+	border-color:#FFE294 !important;
+}
+
+.ms-cui-it-activeCell{
+	border:1px solid #FF0;
+}
+
+.ms-cui-it-inactiveCell{
+	border:1px solid #000;
+}
+
+.ms-cui-it-activeCellOuter{
+	border:1px solid #F00;
+}
+
+.ms-cui-it-inactiveCellOuter{
+	border:1px solid transparent;
+}
+
+.ms-cui-menu{
+	border:1px solid #bec1c4;
+}
+
+.ms-cui-menusection{
+	background-color:#fff;
+	border-bottom:1px solid #e2e4e7;
+}
+
+.ms-cui-menusection-title{
+	border-bottom:1px solid #e2e4e7;
+	background-color:#f0f2f5;
+	color:#4c535c;
+}
+
+
+.ms-cui-menusection-items16{
+	background-color:#fff;
+}
+.ms-cui-menusection-items16rtl{
+	background-color: #fff;
+}
+.ms-cui-menusection-items32{
+    background:#fff;
+}
+
+.ms-cui-menusection-items32rtl{
+	background:#fff;
+}
+
+.ms-cui-tooltip{
+	color:#5d5d5d;
+}
+
+.ms-cui-tooltip-body{
+    background-color:#e5e5f0;
+    border-color:#bebebe;
+}
+
+.ms-cui-tooltip h1{
+	color:#5d5d5d;
+}
+
+.ms-cui-tooltip hr{
+    color:#d9d9d9;
+    border-top-color: #b2b2b9;
+}
+
+.ms-cui-tt-s > .ms-cui-tt-a,.ms-cui-tt-a:hover,.ms-cui-tt-s > .ms-cui-tt-a:hover
+{
+	border-color:#e1e1e1;
+}
+
+.ms-cui-tt-a:hover
+{
+	background-color:#fff;
+}
+
+.ms-cui-tt-a > .ms-cui-tt-span
+{
+	color:#FFFFFF !important;
+}
+
+.ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span,
+.ms-cui-tt-a:hover > .ms-cui-tt-span
+{
+	color:#666 !important;
+}
+
+.ms-cui-topBar2
+{
+/* [ReplaceColor(themeColor:"TopBarBackground")] */ border-bottom:1px solid rgba( 239,239,239,0.78 );
+}
+
+
+.ms-browseTab.ms-cui-tt-s > .ms-cui-tt-a:hover
+{
+	border-color:#e1e1e1;
+}
+
+.ms-browseTab.ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span
+{
+	color:#FFFFFF !important;
+}
+
+.ms-browseTab.ms-cui-tt-s > .ms-cui-tt-a:hover
+{
+	background-color: #1B273D;
+}
+
+.ms-browseTab.ms-cui-tt-s > .ms-cui-tt-a:hover > .ms-cui-tt-span
+{
+	color:#FFFFFF !important;
+}
+
+.ms-cui-topBar2.ms-cui-topBarMaximized
+{
+	border-bottom:1px solid #e1e1e1;
+}
+
+.ms-cui-topBar2.ms-browseTabContainer
+{
+/* [ReplaceColor(themeColor:"TopBarBackground")] */ border-bottom:1px solid rgba( 239,239,239,0.78 );
+}
+
+.ms-promlink-separator
+{
+/* [ReplaceColor(themeColor:"Dark1-Lightest")] */ border-color:#d7d7d7;
+}
+.ms-promlink-backgroundText
+{
+/* [ReplaceColor(themeColor:"Accent3-Lightest")] */ color:#f2f2f2;
+}
+
+.ms-promlink-button-disabled
+{
+/* [ReplaceColor(themeColor:"ButtonDisabledBorder")] */ border-color:#e1e1e1;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-promlink-button-disabled{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+.ms-promlink-button-disabled-hover
+{
+/* [ReplaceColor(themeColor:"ButtonHoverBorder")] */ border-color:#92c0e0;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-promlink-button-hover{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+.ms-promlink-button-enabled
+{
+/* [ReplaceColor(themeColor:"ButtonBorder")] */ border-color:#ababab;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+}
+.ms-core-needIEFilter .ms-promlink-button-enabled{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d8ffffff,endColorstr=#d8ffffff)";
+}
+
+.ms-promlink-button-enabled-hover,.ms-promlink-button-enabled:hover
+{
+/* [ReplaceColor(themeColor:"ButtonHoverBorder")] */ border-color:#92c0e0;
+/* [ReplaceColor(themeColor:"ButtonHoverBackground")] */ background-color:#e6f2fa;
+}
+
+.ms-core-needIEFilter .ms-promlink-button-enabled-hover,.ms-core-needIEFilter .ms-promlink-button-enabled:hover
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"ButtonHoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffe6f2fa,endColorstr=#ffe6f2fa)";
+}
+
+.ms-promlink-button-enabled-pressed
+{
+/* [ReplaceColor(themeColor:"ButtonPressedBorder")] */ border-color:#2a8dd4;
+/* [ReplaceColor(themeColor:"ButtonPressedBackground")] */ background-color:#92c0e0;
+}
+
+.ms-core-needIEFilter .ms-promlink-button-enabled-pressed
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"ButtonPressedBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff92b7d1,endColorstr=#ff92b7d1)";
+}
+
+.ms-attractMode-Background
+{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+.ms-core-needIEFilter .ms-attractMode-Background
+{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+.ms-attractMode-Text
+{
+	color:#788990;
+}
+
+.ms-linksection-level2 > td > h3
+{
+	color:#004693;
+}
+
+.ms-linksection-level2 > td > h3 > a
+{
+	color:#276500;
+}
+
+.ms-linksection-level2 ul > li
+{
+	color:#d7d7d7;
+}
+
+.ms-templatepickerunselected div{
+	border:1px solid transparent;
+}
+
+.ms-templatepickerselected div{
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+	border-color: #394252;
+}
+
+.ms-templatepickerselected > div > a{
+	color:#FFFFFF;
+}
+.ms-templatepickerunselected > div > a{
+	color:#788990;
+}
+
+.ms-viewheadertr .ms-vh2-gridview{
+	background-color:#e7e7e7;
+}
+
+.ms-errorcolor{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+.ms-successcolor{
+/* [ReplaceColor(themeColor:"SearchURL")] */ color:#338200;
+}
+.ms-warning{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+.ms-toolbar{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+
+table.ms-toolbar-togglebutton-on > tbody > tr > td > a{
+/* [ReplaceColor(themeColor:"AccentText")] */ color:#0072c6;
+}
+
+.ms-detailsview{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border:1px solid #c6c6c6;
+}
+
+.validation-summary-errors{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+
+#suiteBarLeft
+{
+/* [ReplaceColor(themeColor:"SuiteBarBackground")] */ background-color:#0072c6;
+/* [ReplaceColor(themeColor:"SuiteBarText")] */ color:#fff;
+}
+
+.ms-core-needIEFilter #suiteBarLeft
+{
+/* [ReplaceColor(themeColor:"SuiteBarBackground",opacity:"1.0")] */ background-color:#0072c6;
+}
+
+#suiteBarRight
+{
+/* [ReplaceColor(themeColor:"TopBarBackground")] */ background-color:rgba( 239,239,239,0.78 );
+/* [ReplaceColor(themeColor:"TopBarText")] */ color:#666;
+}
+.ms-core-needIEFilter #suiteBarRight
+{
+background-color:transparent;
+/* [ReplaceColor(themeColor:"TopBarBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+
+.ms-core-suiteLink-a,
+.ms-core-suiteLink-a:visited,
+a.ms-core-suiteLink-disabled
+{
+/* [ReplaceColor(themeColor:"SuiteBarText")] */ color:#fff;
+}
+.ms-core-suiteLink-a:hover
+{
+/* [ReplaceColor(themeColor:"SuiteBarHoverBackground")] */ background-color:#4c9cd7;
+}
+.ms-core-needIEFilter .ms-core-suiteLink-a:hover
+{
+/* [ReplaceColor(themeColor:"SuiteBarHoverBackground",opacity:"1")] */ background-color:#4B9BD7;
+}
+
+a.ms-core-suiteLink-active,
+a.ms-core-suiteLink-active:hover,
+.ms-core-needIEFilter a.ms-core-suiteLink-active,
+.ms-core-needIEFilter a.ms-core-suiteLink-active:hover
+{
+/* [ReplaceColor(themeColor:"TopBarHoverText")] */ color:#333;
+/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
+/* [ReplaceColor(themeColor:"DialogBorder")] */ border-right-color:#d1d1d1;
+}
+
+a.ms-core-suiteLink-disabled,
+a.ms-core-suiteLink-disabled:hover
+{
+/* [ReplaceColor(themeColor:"SuiteBarHoverText")] */ color:#92c0e0;
+}
+
+.ms-core-suitemenu
+{
+	box-shadow:3px 3px 6px -4px rgba(0,0,0,0.3),-3px 3px 6px -4px rgba(0,0,0,0.3);
+}
+
+#roamingAppFrameArea
+{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+
+.ms-core-needIEFilter #roamingAppFrameArea
+{
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c6efefef,endColorstr=#c6efefef)";
+}
+
+#roamingAppStatusArea
+{
+	color:#788990;
+}
+
+a.ms-roamingapps-goback:link,a.ms-roamingapps-goback:visited
+{
+/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+}
+
+a.ms-roamingapps-goback:hover,a.ms-roamingapps-goback:focus
+{
+/* [ReplaceColor(themeColor:"CommandLinksHover")] */ color:#0072c6;
+}
+
+a.ms-roamingapps-goback:active
+{
+/* [ReplaceColor(themeColor:"CommandLinksPressed")] */ color:#004d85;
+}
+
+.ms-mrudocs-separator
+{
+	border-color: #394252;
+}
+
+.dlp-menu-box
+{
+/* [ReplaceColor(themeColor:"NavigationSelectedBackground")] */ border-color:#efefef;
+}
+
+.dlp-menu-heading
+{
+/* [ReplaceColor(themeColor:"NavigationSelectedBackground")] */ background-color:rgba( 239,239,239,0.78 );
+/* [ReplaceColor(themeColor:"Navigation")] */ color:#666666;
+}
+
+.dlp-issuesIcon
+{
+/* [ReplaceColor(themeColor:"ErrorText")] */ color:#bf0000;
+}
+
+.dlp-lastScannedIcon
+{
+/* [ReplaceColor(themeColor:"ButtonGlyphDisabled")] */ color:#b1b1b1;
+}
+
+.ms-confirmDialog-overlay{
+	background-color:#999;
+}
+
+.ms-confirmDialog-container{
+    border-color:#c6c6c6;
+    background-color:#fff;
+    box-shadow:0px 0px 30px 0px rgba(0,0,0,0.47);
+}
+
+.ms-confirmDialog-title{
+	color:#444;
+}
+
+.ms-confirmDialog-body{
+	color:#444;
+}
+
+.ms-confirmDialog-button{
+    border-color: #ababab;
+    background-color:#fdfdfd;
+    color: #444;
+}
+
+.ms-inputuserfield:disabled
+{
+/* [ReplaceColor(themeColor:"DisabledText")] */ color:#b1b1b1;
+/* [ReplaceColor(themeColor:"DisabledLines")] */ border-color:#e1e1e1;
+/* [ReplaceColor(themeColor:"DisabledBackground")] */ background-color:#fdfdfd;
+}
+
+a.ms-missinglink
+{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ border-color: #0072c6;
+}
+
+.ms-tileview-tile-content
+{
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ background-color:#0072c6;
+}
+
+.ms-tileview-tile-detailsBox
+{
+/* [ReplaceColor(themeColor:"TileText")] */ color:#fff;
+/* [ReplaceColor(themeColor:"TileBackgroundOverlay")] */ background-color:rgba( 0,0,0,0.6 );
+}
+
+.ms-core-needIEFilter .ms-tileview-tile-detailsBox
+{
+	background-color:transparent;
+/* [ReplaceColor(themeColor:"TileBackgroundOverlay")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#99000000,endColorstr=#99000000)";
+}
+.ms-tileview-tile-backgroundColorDetailsBox
+{
+/* [ReplaceColor(themeColor:"EmphasisBackground",opacity:"0.9")] */ background-color:rgba( 0,114,198,0.9 );
+}
+.ms-core-needIEFilter .ms-tileview-tile-backgroundColorDetailsBox
+{
+/* [ReplaceColor(themeColor:"EmphasisBackground",opacity:"0.9")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e50072c6,endColorstr=#e50072c6)";
+}
+.ms-tileview-tile-transparentDetailsBox
+{
+/* [ReplaceColor(themeColor:"EmphasisBackground",opacity:"0")] */ background-color:rgba( 0,114,198,0 );
+}
+.ms-core-needIEFilter .ms-tileview-tile-transparentDetailsBox
+{
+/* [ReplaceColor(themeColor:"EmphasisBackground",opacity:"0")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00000000,endColorstr=#00000000)";
+}
+
+.ms-tileview-tile-selected,.ms-tileview-tile-selectionBox,.ms-tileview-tile-selectionBox > *,.ms-tileview-tile-selectionBox:hover > *
+{
+/* [ReplaceColor(themeColor:"EmphasisBackground")] */ background-color:#0072c6;
+}
+
+.ms-tileview-tile-titleMedium,
+.ms-tileview-tile-titleLarge
+{
+/* [ReplaceColor(themeColor:"TileText")] */ color:#fff;
+}
+
+.ms-tileview-tile-bodyText
+{
+/* [ReplaceColor(themeColor:"EmphasisText")] */ color:#fff;
+}
+
+.ms-navresizer-vertical{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-left:1px solid #ababab;
+}
+
+.ms-navresizer-horizontal{
+/* [ReplaceColor(themeColor:"SubtleLines")] */ border-top:1px solid #ababab;
+/* [ReplaceColor(themeColor:"SubtleEmphasisBackground")] */ background-color:#f1f1f1;
+}
+
+.ms-inlineSearch-searchImgSpanStandard
+{
+	border:1px solid transparent;
+}
+
+.ms-inlineSearch-searchImgSpanHoverHighlight
+{
+/* [ReplaceColor(themeColor:"ButtonHoverBackground")] */ border:1px solid #e6f2fa;
+/* [ReplaceColor(themeColor:"ButtonHoverBackground")] */ background-color:#e6f2fa;
+}
+
+.ms-inlineSearch-imgHoverHighlight
+{
+/* [ReplaceColor(themeColor:"ButtonHoverBackground")] */ background-color:#e6f2fa;
+}
+
+.ms-HelpPanel-NotificationBaloon
+{
+	border-color:#98a3a6;
+}
+
+.ms-core-overlay
+{
+    background-color:transparent;
+}
+
+.ms-core-needIEFilter .ms-core-overlay
+{
+	background-color:transparent;
+}
+
+#globalNavBox,.ms-clientcontrol-chromeheader
+{
+	background-color: #2F364F;
+}
+
+.ms-core-needIEFilter #globalNavBox,.ms-core-needIEFilter .ms-clientcontrol-chromeheader
+{
+	background-color: #FFFFFF;
+}
+
+.ms-siteactions-root > span > a.ms-core-menu-root
+{
+/* [ReplaceColor(themeColor:"TopBarText")] */ color:#666;
+}
+
+#siteIcon {
+	padding: 0.5em;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#sideNavBox {
+	background-color: #1B273D;
+    border-radius: 5px;
+}
