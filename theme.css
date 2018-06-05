@@ -22,18 +22,18 @@ body
 h1,
 .ms-h1
 {
-	color:#777;
+	color:#FFFFFF;
 }
 
 h2,h3,.ms-h2,.ms-h3,
 .ms-headerFont
 {
-	color:#262626;
+	color: #FFFFFF;
 }
 
 h4,.ms-h4
 {
-	color:#262626;
+	color: #FFFFFF;
 }
 
 hr
@@ -295,11 +295,11 @@ border-right:1px solid transparent;
 }
 .ms-srch-sb-borderFocused
 {
-/* [ReplaceColor(themeColor:"AccentLines")] */ border:1px solid #2a8dd4 !important;
+	border-color:#394252 !important;
 }
 .ms-core-header .ms-srch-sb-borderFocused
 {
-/* [ReplaceColor(themeColor:"HeaderAccentLines")] */ border:1px solid #2a8dd4;
+	border-color:#394252;
 }
 .ms-srch-sb>input
 {
@@ -494,12 +494,13 @@ a.ms-soften:visited,
 {
 	color:#788990;
 }
+
 .ms-commandLink,
 .ms-commandLink:visited,
 .ms-commandGlyph,
 .ms-commandGlyph:visited
 {
-/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+	color:#788990;
 }
 
 .ms-secondaryCommandLink,
@@ -694,7 +695,7 @@ background-color:transparent;
 
 .ms-shadow
 {
-	box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
+	box-shadow:0 0 7px 0 rgba(0,0,0,0.47);
 }
 
 .ms-lines{
@@ -2228,13 +2229,16 @@ box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
 {
 /* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=rgba( 205,230,247,0.5 ),endColorstr=rgba( 205,230,247,0.5 ))";;
 }
+
 .ms-headerCellStyleHover
 {
-/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
+	background-color: #2F364F;
 }
+
 .ms-core-needIEFilter .ms-headerCellStyleHover{
-/* [ReplaceColor(themeColor:"HoverBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7fcde6f7,endColorstr=#7fcde6f7)";
+	background-color: #2F364F;
 }
+
 .ms-headerCellStylePressed
 {
 /* [ReplaceColor(themeColor:"SelectionBackground",opacity:"1")] */ background-color:#9ccef0;
@@ -2249,14 +2253,14 @@ box-shadow:0px 0px 7px 0px rgba(0,0,0,0.47);
 
 .ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh2-nofilter-perm,.ms-vh a,.ms-vh2,.ms-vh2 a
 {
-	color:#788990;
+	color: #FFFFFF;
 }
 
 .ms-headerCellStyleHover a,
 .ms-headerCellStylePressed a,
 .ms-headerCellStyleMenuOpen a
 {
-/* [ReplaceColor(themeColor:"CommandLinks")] */ color:#666;
+	color: #FFFFFF;
 }
 
 .ms-headerCellStyleIcon:hover
@@ -2355,11 +2359,11 @@ div.ms-viewselector a,div.ms-viewselectorhover a.ms-menu-a span{
 }
 
 .ms-vh table.ms-selectedtitle,.ms-vh2 table.ms-selectedtitle,.ms-vh-icon table.ms-selectedtitle{
-/* [ReplaceColor(themeColor:"HeaderBackground")] */ background-color:rgba( 255,255,255,0.85 );
+	background-color: #2F364F;
 }
 
 .ms-vh-icon .ms-selectedtitle .ms-vb,.ms-vh-icon .ms-unselectedtitle .ms-vb{
-	border-bottom:solid 3px transparent;
+	border:solid 3px transparent;
 }
 
 .ms-selectedtitle{
@@ -2378,8 +2382,8 @@ div.ms-viewselector a,div.ms-viewselectorhover a.ms-menu-a span{
 }
 
 .ms-menuimagecell{
-/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ background-color:#fff;
-/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */ border:solid 1px #fff;
+	background-color: #2F364F;
+	border-color: transparent;
 }
 
 .ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh-icon-empty,.ms-vh2-nofilter,.ms-vh2-nofilter-notextalign,.ms-vh2-nofilter-perm,.ms-vhImage,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-vh2-nofilter-icon,.ms-ph{
@@ -2450,7 +2454,7 @@ th .ms-vb a,.ms-vh2-nofilter-icon a{
 }
 
 th .ms-selectedtitle .ms-vb,th .ms-selectedtitle .ms-vh2-nofilter-icon,th .ms-selectedtitle .ms-vb a,th .ms-selectedtitle .ms-vh2-nofilter-icon a{
-	color:#788990;
+	color:#FFFFFF;
 }
 
 table.ms-listviewtable tbody tr.ms-newsletteralt td{
@@ -2516,10 +2520,11 @@ table.ms-listviewtable > tbody > tr > td.ms-stylebox{
 background-color:transparent;
 /* [ReplaceColor(themeColor:"SelectionBackground")] */ -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7f9ccef0,endColorstr=#7f9ccef0)";
 }
+
 .ms-itmHoverEnabled:hover > *{
-/* [ReplaceColor(themeColor:"HoverBackground")] */ background-color:rgba( 205,230,247,0.5 );
-border:1px solid transparent;
+	background-color: transparent;
 }
+
 .ms-itmHoverEnabled:hover .ms-list-itemLink-td{
 /* [ReplaceColor(themeColor:"HoverBackground",opacity:"1")] */ background-color:#cde6f7;
 }
@@ -3769,8 +3774,8 @@ background-color:transparent;
 }
 .ms-promlink-button-enabled
 {
-/* [ReplaceColor(themeColor:"ButtonBorder")] */ border-color:#ababab;
-/* [ReplaceColor(themeColor:"BackgroundOverlay")] */ background-color:rgba( 255,255,255,0.85 );
+	border-color: #394252;
+	background-color: #1B273D;
 }
 .ms-core-needIEFilter .ms-promlink-button-enabled{
 background-color:transparent;
@@ -4136,7 +4141,537 @@ a.ms-missinglink
     border-radius: 5px;
 }
 
-#sideNavBox {
+#sideNavBox,
+#contentBox {
 	background-color: #1B273D;
     border-radius: 5px;
+}
+
+.ms-listviewtable tr:hover {
+    background-color: #2F364F;
+}
+
+.ms-listviewtable tr.ms-viewheadertr:hover {
+    background-color: transparent;
+}
+
+.qb-tab-selected {
+color:black;
+}
+
+.qb-tab-border {
+/* [ReplaceColor(themeColor: "SubtleLines")] */ border: 1px solid #ababab;
+}
+
+.qb-preview-border {
+/* [ReplaceColor(themeColor: "SubtleLines")] */ border: 1px solid #ababab;
+}
+
+.qb-preview {
+    /* [ReplaceColor(themeColor: "SubtleLines")] */ border-bottom: 1px solid #c6c6c6;
+}
+
+.qb-previewContainer
+{
+  /* [ReplaceColor(themeColor: "SubtleLines")] */ border-top: 1px solid #c6c6c6;
+}
+
+
+.qb-preview-item-cutoff{
+border-top:1px dashed gray;
+}
+
+.edisc-sort{
+color:gray;
+}
+
+.edisc-SearchResultsTable th{
+color : gray;
+}
+
+.edisc-ActiveTab{
+background-color : white;
+}
+
+.ms-communityPortalEmphasisText{
+/* [ReplaceColor(themeColor: "SubtleEmphasisCommandLinks")] */ color: #262626;
+}
+
+.cbs-Slideshow{
+background-color:#000000;
+color:#FFFFFF;
+}
+
+.cbs-SlideshowPagingBar{
+color:white;
+}
+
+.cbs-largePictureDataOverlay{
+background-color:#000000;
+filter:alpha(opacity=30);-ms-filter:"alpha(opacity=30)";
+}
+
+.cbs-SlideshowPagingLink-Active > span, .cbs-SlideshowPagingLink-Inactive > span{
+border:1px solid #b0b0b0;
+}
+
+.cbs-SlideshowPagingLink-Active > span{
+background-color:#b0b0b0;
+}
+
+.cbs-SlideshowPaging-More {
+color:#b0b0b0;
+}
+
+div.cbs-pictureLine3{
+/* [ReplaceColor(themeColor: "SubtleBodyText")] */ color: #777;
+}
+
+.cbs-largePictureDataContainer,a.cbs-largePictureLine1Link,h2.cbs-largePictureLine1,.cbs-Slideshow h2{
+	color:#FFFFFF;
+}
+
+.cbs-noImageContainer{
+background-color:#808080;
+}
+
+.cbs-noImageContainer-ContentWrapperSmall,.cbs-noImageContainer-ContentWrapperLarge{
+color:#FFFFFF;
+}
+
+.ScriptToolPart-Error { 
+    color: red;
+}
+
+.cbs_tp_slot_textbox {
+background-color:white;
+}
+
+.ajax__multi_slider_default .inner_rail_horizontal{
+/* [ReplaceColor(themeColor: "AccentLines")] */ background-color: #2a8dd4;
+/* [ReplaceColor(themeColor: "AccentLines")] */ border-top: 1px solid #2a8dd4;
+/* [ReplaceColor(themeColor: "AccentLines")] */ border-bottom: 1px solid #2a8dd4;
+}
+
+.ajax__multi_slider_default .outer_rail_horizontal{
+/* [ReplaceColor(themeColor: "Lines")] */ background-color: #ababab;
+/* [ReplaceColor(themeColor: "Lines")] */ border-top: 1px solid #ababab;
+/* [ReplaceColor(themeColor: "Lines")] */ border-bottom: 1px solid #ababab;
+}
+
+.slider_tick_inactive{
+/* [ReplaceColor(themeColor: "Lines")] */ background-color: #ababab;
+/* [ReplaceColor(themeColor: "Lines")] */ border: 1px solid #ababab;
+}
+
+.slider_tick_active{
+/* [ReplaceColor(themeColor: "AccentLines")] */ background-color: #2a8dd4;
+/* [ReplaceColor(themeColor: "AccentLines")] */ border: 1px solid #2a8dd4;
+}
+
+.ajax__multi_slider_default .handle_horizontal_left, .ajax__multi_slider_default .handle_horizontal_right, .ajax__multi_slider_default .handle_forcepressed, .ajax__multi_slider_default .handle_noforcepressed
+{
+/* [ReplaceColor(themeColor: "ButtonBackground")] */ background-color: #fdfdfd;
+/* [ReplaceColor(themeColor: "ButtonBorder")] */ border: 1px solid #ababab;
+}
+
+.ajax__multi_slider_default .handle_noforcepressed:hover, .ajax__multi_slider_default .handle_noforcepressed:hover
+{
+/* [ReplaceColor(themeColor: "ButtonHoverBackground")] */ background-color: #e6f2fa;
+/* [ReplaceColor(themeColor: "ButtonHoverBorder")] */ border: 1px solid #92c0e0;
+}
+
+.ajax__multi_slider_default .handle_noforcepressed:active, .ajax__multi_slider_default .handle_noforcepressed:active, .ajax__multi_slider_default .handle_forcepressed
+{
+/* [ReplaceColor(themeColor: "ButtonPressedBackground")] */ background-color: #92c0e0;
+/* [ReplaceColor(themeColor: "ButtonPressedBorder")] */ border: 1px solid #2a8dd4;
+}
+
+.handle_label{
+	color: #788990;
+}
+
+.histogram_container{
+/* [ReplaceColor(themeColor: "SubtleLines")] */ border-bottom: 1px solid #c6c6c6;
+}
+
+.slider_extent_label_section{
+/* [ReplaceColor(themeColor: "SubtleBodyText")] */ color: #777;
+}
+
+.histogram_bar_inactive{
+/* [ReplaceColor(themeColor: "DisabledLines")] */ background-color: #e1e1e1;
+/* [ReplaceColor(themeColor: "DisabledLines")] */ border-left: 1px solid #e1e1e1;
+/* [ReplaceColor(themeColor: "DisabledLines")] */ border-right: 1px solid #e1e1e1;
+/* [ReplaceColor(themeColor: "ButtonGlyphDisabled")] */ border-top: 2px solid #b1b1b1;
+
+}
+
+.histogram_bar_active{
+/* [ReplaceColor(themeColor: "SubtleLines")] */ background-color: #c6c6c6;
+/* [ReplaceColor(themeColor: "SubtleLines")] */ border-left: 1px solid #c6c6c6;
+/* [ReplaceColor(themeColor: "SubtleLines")] */ border-right: 1px solid #c6c6c6;
+/* [ReplaceColor(themeColor: "AccentLines")] */ border-top: 2px solid #2a8dd4;
+}
+
+.histogram_bar_active:hover, .histogram_bar_inactive:hover
+{
+/* [ReplaceColor(themeColor: "ButtonHoverBorder")] */ background-color: #92c0e0;
+/* [ReplaceColor(themeColor: "ButtonHoverBorder")] */ border-left: 1px solid #92c0e0;
+/* [ReplaceColor(themeColor: "ButtonHoverBorder")] */ border-right: 1px solid #92c0e0;
+/* [ReplaceColor(themeColor: "AccentLines")] */ border-top: 2px solid #2a8dd4;
+}
+.histogram_bar_active:active, .histogram_bar_inactive:active
+{
+/* [ReplaceColor(themeColor: "ButtonPressedBorder")] */ background-color: #2a8dd4;
+/* [ReplaceColor(themeColor: "ButtonPressedBorder")] */ border-left: 1px solid #2a8dd4;
+/* [ReplaceColor(themeColor: "ButtonPressedBorder")] */ border-right: 1px solid #2a8dd4;
+/* [ReplaceColor(themeColor: "AccentLines")] */ border-top: 2px solid #2a8dd4;
+}
+
+.ms-srch-group-title a:link,
+.ms-srch-group-title a:visited
+{    
+    /* [ReplaceColor(themeColor: "BodyText")] */ color: #444;
+}
+
+.ms-srch-group-border
+{    
+    /* [ReplaceColor(themeColor: "SubtleLines")] */ border-left: 2px solid #c6c6c6;    
+}
+
+.ms-srch-group-border #GroupBorderTop
+{
+    /* [ReplaceColor(themeColor: "SubtleLines")] */ border-top: 2px solid #c6c6c6;    
+}
+
+.ms-srch-group-border #GroupBorderBottom
+{    
+    /* [ReplaceColor(themeColor: "SubtleLines")] */ border-bottom: 2px solid #c6c6c6;
+}
+
+.ms-srch-item-summary .ms-srch-item-highlightedText
+{
+    color: #FADA5E; 
+}
+
+.ms-srch-communityItem-summary .ms-srch-item-highlightedText
+{
+    /* [ReplaceColor(themeColor: "BodyText")] */ color: #444; 
+}
+
+.ms-srch-item-metadataSeparator
+{
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-left-color: #d1d1d1;
+}
+
+.ms-srch-item-previewContainer
+{
+    /* [ReplaceColor(themeColor: "SubtleEmphasisBackground")] */ background: #f1f1f1; 
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-color: #d1d1d1;
+}
+
+.ms-srch-item-path
+{
+    color: #788990;	
+}
+
+.ms-srch-item-path-selected
+{
+    /* [ReplaceColor(themeColor: "Lines")] */ border-color: #ababab;
+}
+
+.ms-srch-item:hover, .ms-srch-resultHover:hover, .edisc-SearchResultItemContainer:hover
+{
+    /* [ReplaceColor(themeColor: "HoverBackground")] */ background-color: rgba( 205, 230, 247, 0.5 );
+}
+
+.ms-srch-itemSelected
+{
+    /* [ReplaceColor(themeColor: "HoverBackground")] */ background-color: rgba( 205, 230, 247, 0.5 );
+}
+
+.ms-core-needIEFilter .ms-srch-item:hover, .ms-core-needIEFilter .ms-srch-resultHover:hover, .ms-core-needIEFilter .edisc-SearchResultItemContainer:hover{
+    background-color: transparent;
+    /* [ReplaceColor(themeColor: "HoverBackground")] */ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#7fcde6f7, endColorstr=#7fcde6f7)";
+}
+
+.ms-srch-people-item #FieldTitle
+{
+    /* [ReplaceColor(themeColor: "SubtleBodyText")] */ color: #777;
+}
+
+.ms-srch-people-item-separator
+{
+    /* [ReplaceColor(themeColor: "SubtleLines")] */ border-top-color: #c6c6c6;
+}
+
+.ms-srch-people-item #SelfSearchInfo #FieldTitle
+{
+    /* [ReplaceColor(themeColor: "SubtleBodyText")] */ color: #777;
+}
+
+.ms-srch-people-item #SelfSearchInfo #LastModifiedTime
+{
+    /* [ReplaceColor(themeColor: "SubtleBodyText")] */ color: #777;
+}
+
+
+.ms-srch-resultFooter {
+    color: #FFF;
+}
+
+.ms-srch-resultFooter a {
+	color: #CEFFFF;
+}
+
+.ms-srch-resultFooter a:hover{
+    /* [ReplaceColor(themeColor: "CommandLinksHover")] */ color: #0072c6;
+}    
+
+.ms-srch-result #ResultHeader select
+{
+    color: #999;
+}
+
+.ms-srch-msg-border
+{
+    /* [ReplaceColor(themeColor: "StrongLines")] */ border: 1px solid #ababab;
+}
+
+.ms-srch-result #Paging a:hover
+{
+    /* [ReplaceColor(themeColor: "AccentText")] */ color: #0072c6;
+}
+
+.ms-srch-result #PagingSelf a
+{   
+    /* [ReplaceColor(themeColor: "AccentText")] */ color: #0072c6;
+}
+
+.ms-srch-result #PagingLink a
+{   
+    color: #CEFFFF;
+}
+
+.ms-ref-refinername:link,
+.ms-ref-refinername:visited
+{
+    color: #FFFFFF;
+}
+
+.ms-ref-name
+{
+	color: #CEFFFF;
+}
+
+.ms-ref-count 
+{
+    /* [ReplaceColor(themeColor: "SubtleBodyText")] */ color: #777;
+}
+
+.ms-ref-refiner #Value > a:hover, .ms-ref-unsel-toggle:hover
+{
+    /* [ReplaceColor(themeColor: "NavigationHover")] */ color: #0072c6;
+}
+
+.ms-ref-refiner #Value > a:active
+{
+    /* [ReplaceColor(themeColor: "NavigationPressed")] */ color: #004d85;
+}
+
+.ms-ref-ctrl .ms-ref-selSec .ms-ref-filterSel, .ms-ref-ctrl .ms-ref-allSec .ms-ref-filterSel
+{
+    /* [ReplaceColor(themeColor: "NavigationAccent")] */ color: #0072c6;
+}
+
+.ms-srch-hover-innerContainer
+{
+    background-color: #1B273D;
+    border-color: #394252;
+    box-shadow: 0 1px 4px #cccccc;
+}
+
+.ms-srch-hover-arrowBorder
+{
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-color: transparent #d1d1d1 transparent transparent;
+}
+
+.ms-srch-hover-arrow
+{
+    /* [ReplaceColor(themeColor: "BackgroundOverlay",opacity:"1")] */ border-color: transparent #fff transparent transparent;
+}
+
+.ms-srch-hover-arrowBorder-rtl
+{
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-color: transparent transparent transparent #d1d1d1;
+}
+
+.ms-srch-hover-arrow-rtl
+{
+    /* [ReplaceColor(themeColor: "BackgroundOverlay",opacity:"1")] */ border-color: transparent transparent transparent #fff;
+}
+
+.ms-srch-hover-popularity
+{
+    /* [ReplaceColor(themeColor: "SubtleEmphasisBackground")] */ background: #f1f1f1;
+}
+
+.ms-srch-hover-actions
+{
+    background: #001122;
+}
+
+.ms-core-needIEFilter .ms-srch-hover-actions
+{
+    background: #001122;
+    -ms-filter: none;
+}
+
+.ms-srch-hover-siteViewerContainer
+{
+    /* [ReplaceColor(themeColor: "StrongLines")] */ border-color: #ababab;
+}
+
+.ms-srch-hover-glass-siteViewer
+{
+     background-color:#FFFFFF;
+}
+
+.ms-srch-hover-imageContainer
+{
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-color: #d1d1d1;
+}
+
+.ms-srch-hover-wacImageContainer
+{
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-color: #d1d1d1;
+    /* [ReplaceColor(themeColor: "SubtleEmphasisBackground")] */ background: #f1f1f1; 
+}
+
+.ms-srch-metadataText-emphasis
+{
+    color: #444444
+}
+
+.ms-srch-hover-additionalRepliesHeader
+{
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-top-color: #d1d1d1;
+}
+
+.ms-srch-hover-communityLogoContainer img
+{
+    /* [ReplaceColor(themeColor: "SubtleLines")] */ border-color: #c6c6c6;
+}
+
+.ms-srch-people-hover-ellipsis
+{
+    /* [ReplaceColor(themeColor: "AccentText")] */ color: #0072c6;
+}
+
+.ms-srch-sbLarge
+{        
+	background-color: #001122; 
+}
+
+.ms-srch-sbLarge input {
+    border: 0;
+}
+
+.ms-srchnav-link:link,
+.ms-srchnav-link:visited
+{
+    /* [ReplaceColor(themeColor: "Navigation")] */ color: #666666;
+}
+
+.ms-srchnav-link-selected:link,
+.ms-srchnav-link-selected:visited
+{
+    /* [ReplaceColor(themeColor: "NavigationAccent")] */ color: #0072c6;
+}
+
+.ms-srchnav-link:hover,  
+.ms-srchnav-link-selected:hover
+{ 
+    /* [ReplaceColor(themeColor: "NavigationHover")] */ color: #0072c6;
+}
+
+.ms-srchnav-link:active,
+.ms-srchnav-link-selected:active
+{ 
+    /* [ReplaceColor(themeColor: "NavigationPressed")] */ color: #004d85;
+}
+
+.ms-srchnav-overflow-container
+{
+    /* [ReplaceColor(themeColor: "BackgroundOverlay",opacity:"1")] */ background-color: #fff;
+    /* [ReplaceColor(themeColor: "DialogBorder")] */ border-color: #d1d1d1;
+}
+
+a.ms-srchnav-menu-link
+{
+    /* [ReplaceColor(themeColor: "BodyText")] */ color: #444;
+}
+
+a.ms-srchnav-menu-link:focus, 
+a.ms-srchnav-menu-link:hover
+{
+    /* [ReplaceColor(themeColor: "HoverBackground")] */ background-color: rgba( 205, 230, 247, 0.5 );
+}
+
+.ms-core-needIEFilter a.ms-srchnav-menu-link:focus, 
+.ms-core-needIEFilter a.ms-srchnav-menu-link:hover
+{
+    background-color: transparent;
+    /* [ReplaceColor(themeColor: "HoverBackground")] */ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#7fcde6f7, endColorstr=#7fcde6f7)";
+}
+
+.ms-srchnav-menu-link:link,
+.ms-srchnav-menu-link:visited
+{
+    /* [ReplaceColor(themeColor: "BodyText")] */ color: #444;
+}
+
+.ms-srch-video-playbutton
+{
+/* [ReplaceColor(themeColor: "TileBackgroundOverlay")] */ background-color: rgba( 0, 0, 0, 0.6 );
+ border-color: #fff;
+}
+.ms-core-needIEFilter .ms-srch-video-playbutton
+{
+	background-color: #000;
+}
+
+.ms-srch-video-playbutton > span
+{
+	border-left-color: #fff;
+}
+
+div.ms-srch-video-results-centered, .ms-srch-video-itemthumbnail
+{
+    background-color: #000000;
+}
+
+.ms-srch-refconfig-disabled { 
+    background-color: rgb(221, 221, 221); 
+}
+
+.ms-srch-refconfig-properties-inner 
+{ 
+    /* [ReplaceColor(themeColor: "SubtleLines")] */ border-color: #ababab;
+}
+
+.tprprt_eventTypeSelector
+{
+    border-color: #b0b0b0;
+}
+
+.qb-resultPath
+{
+  /* [ReplaceColor(themeColor: "SearchURL")] */ color: #338200;
+}
+
+.createYourOwnQueryBox
+{
+  /* [ReplaceColor(themeColor: "SubtleLines")] */ border-color: #c6c6c6;
 }
